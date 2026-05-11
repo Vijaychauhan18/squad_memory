@@ -47,3 +47,6 @@ seo_expert_feed_stop_at.txt
 
 # Test/runtime output
 test-results/
+
+# Local release packages
+release-artifacts/
