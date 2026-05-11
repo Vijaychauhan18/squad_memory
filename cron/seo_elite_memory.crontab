@@ -1,0 +1,21 @@
+# Elite SEO memory layer schedule
+#
+# Install with:
+#   crontab /Users/vijaychauhan/squad_memory/cron/seo_elite_memory.crontab
+#
+# Schedule:
+# - every 4 hours: elite expert live sync
+# - every 12 hours: primary-source Google docs + patents refresh
+# - nightly: secondary archive backfill
+# - every 8 hours: deep bulk backfill + harvest for faster archive growth
+# - hourly: article-level harvest from elite source snapshots
+# - every 5 minutes: status ping note + local macOS notification
+# - daily: live canon cleanup and router refresh
+
+13 */4 * * * zsh /Users/vijaychauhan/squad_memory/run_seo_elite_live_sync.sh
+23 */12 * * * zsh /Users/vijaychauhan/squad_memory/run_seo_elite_primary_sources.sh
+27 2 * * * zsh /Users/vijaychauhan/squad_memory/run_seo_elite_archive_backfill.sh
+47 */8 * * * zsh /Users/vijaychauhan/squad_memory/run_seo_elite_bulk_backfill.sh
+41 * * * * zsh /Users/vijaychauhan/squad_memory/run_seo_elite_article_harvest.sh
+*/5 * * * * zsh /Users/vijaychauhan/squad_memory/run_seo_elite_status_ping.sh
+19 3 * * * zsh /Users/vijaychauhan/squad_memory/run_seo_elite_cleanup.sh

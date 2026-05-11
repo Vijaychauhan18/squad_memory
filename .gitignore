@@ -1,0 +1,49 @@
+# macOS / editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local secrets and machine-specific config
+.env
+.env.*
+*.key
+*.pem
+credentials*
+*secret*
+*token*
+
+# Generated databases and temporary SQLite files
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.tmp
+*.tmp-*
+*-journal
+
+# Runtime logs and locks
+logs/
+locks/
+*.log
+
+# Generated scrape/vector artifacts
+ingest/
+status/
+reports/
+raw/
+
+# Local run controls
+seo_elite_2h_sprint_stop_at.txt
+seo_expert_feed_stop_at.txt
+
+# Test/runtime output
+test-results/

@@ -1,0 +1,1 @@
+17 */6 * * * /Users/vijaychauhan/squad_memory/run_phase30_scorecard_learning.sh >> /Users/vijaychauhan/squad_memory/logs/phase30_scorecard_learning.log 2>&1

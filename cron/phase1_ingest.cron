@@ -1,0 +1,2 @@
+# Phase 1: live source ingestion and raw snapshot capture
+17 */6 * * * /Users/vijaychauhan/squad_memory/run_phase1_ingest.sh

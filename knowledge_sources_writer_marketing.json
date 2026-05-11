@@ -1,0 +1,208 @@
+{
+  "name": "Phase 12 Writer and Marketing Source Monitor",
+  "description": "Trusted writing, copy, content, and marketing publications for external source ingestion and canon fusion.",
+  "sources": [
+    {
+      "domain": "writer",
+      "slug": "copyblogger",
+      "name": "Copyblogger",
+      "homepage": "https://copyblogger.com/",
+      "kind": "publication",
+      "strength": "copywriting systems, hooks, persuasive structure, editorial execution",
+      "topic": "copywriting_systems",
+      "confidence": "high",
+      "roles": ["writer", "pinchy", "marketing"],
+      "intent": ["research", "monitoring", "writing_examples", "editorial_patterns"],
+      "tags": ["copyblogger", "copywriting", "editorial"],
+      "feed_urls": [
+        "https://copyblogger.com/feed/",
+        "http://feeds.copyblogger.com/copyblogger"
+      ]
+    },
+    {
+      "domain": "writer",
+      "slug": "content-marketing-institute",
+      "name": "Content Marketing Institute",
+      "homepage": "https://contentmarketinginstitute.com/",
+      "kind": "publication",
+      "strength": "editorial strategy, audience-first content, content operations",
+      "topic": "editorial_strategy",
+      "confidence": "high",
+      "roles": ["writer", "pinchy", "marketing"],
+      "intent": ["research", "monitoring", "editorial_patterns", "content_ops"],
+      "tags": ["cmi", "editorial", "content_strategy"],
+      "feed_urls": [
+        "https://contentmarketinginstitute.com/feed/"
+      ]
+    },
+    {
+      "domain": "writer",
+      "slug": "ann-handley",
+      "name": "Ann Handley",
+      "homepage": "https://annhandley.com/",
+      "kind": "practitioner",
+      "strength": "reader-first writing, voice, email and content craft",
+      "topic": "reader_first_writing",
+      "confidence": "high",
+      "roles": ["writer", "pinchy"],
+      "intent": ["research", "monitoring", "writing_examples", "voice"],
+      "tags": ["ann_handley", "writer", "voice"],
+      "feed_urls": [
+        "https://annhandley.com/feed/"
+      ]
+    },
+    {
+      "domain": "writer",
+      "slug": "seth-godin",
+      "name": "Seth's Blog",
+      "homepage": "https://seths.blog/",
+      "kind": "practitioner",
+      "strength": "message positioning, framing, concise idea-driven writing",
+      "topic": "message_framing",
+      "confidence": "medium",
+      "roles": ["writer", "pinchy", "marketing"],
+      "intent": ["research", "monitoring", "message_framing", "writing_examples"],
+      "tags": ["seth_godin", "positioning", "message"],
+      "feed_urls": [
+        "https://seths.blog/feed/",
+        "https://feeds.feedblitz.com/sethsblog&x=1"
+      ]
+    },
+    {
+      "domain": "writer",
+      "slug": "copyhackers",
+      "name": "Copyhackers",
+      "homepage": "https://copyhackers.com/",
+      "kind": "publication",
+      "strength": "conversion copy, landing-page structure, reader-first persuasion",
+      "topic": "conversion_copywriting",
+      "confidence": "high",
+      "roles": ["writer", "pinchy", "marketing"],
+      "intent": ["research", "monitoring", "writing_examples", "conversion_copy"],
+      "tags": ["copyhackers", "copywriting", "conversion"],
+      "feed_urls": [
+        "https://copyhackers.com/feed/"
+      ]
+    },
+    {
+      "domain": "marketing",
+      "slug": "buffer",
+      "name": "Buffer",
+      "homepage": "https://buffer.com/resources/",
+      "kind": "publication",
+      "strength": "social distribution, platform-native posting, creator workflows",
+      "topic": "social_distribution",
+      "confidence": "high",
+      "roles": ["marketing", "charles", "pinchy"],
+      "intent": ["research", "monitoring", "distribution_examples", "social"],
+      "tags": ["buffer", "social_media", "distribution"],
+      "feed_urls": [
+        "https://buffer.com/resources/feed/"
+      ]
+    },
+    {
+      "domain": "marketing",
+      "slug": "hubspot-marketing",
+      "name": "HubSpot Marketing Blog",
+      "homepage": "https://blog.hubspot.com/marketing",
+      "kind": "publication",
+      "strength": "campaign operations, email, distribution systems, marketing reporting",
+      "topic": "campaign_operations",
+      "confidence": "high",
+      "roles": ["marketing", "pinchy", "writer"],
+      "intent": ["research", "monitoring", "campaigns", "email"],
+      "tags": ["hubspot", "marketing", "campaigns"],
+      "feed_urls": [
+        "https://blog.hubspot.com/marketing/rss.xml"
+      ]
+    },
+    {
+      "domain": "marketing",
+      "slug": "sparktoro",
+      "name": "SparkToro Blog",
+      "homepage": "https://sparktoro.com/blog/",
+      "kind": "publication",
+      "strength": "audience research, channel discovery, demand and distribution insight",
+      "topic": "audience_research",
+      "confidence": "high",
+      "roles": ["marketing", "pinchy", "researcher"],
+      "intent": ["research", "monitoring", "audience_research", "distribution_examples"],
+      "tags": ["sparktoro", "audience", "distribution"],
+      "enabled": false,
+      "inactive_reason": "Feed and HTML listing are origin-blocked with persistent 403 responses during Phase 12 fetches.",
+      "listing_fallback": true,
+      "listing_urls": [
+        "https://sparktoro.com/blog/"
+      ],
+      "feed_urls": [
+        "https://sparktoro.com/blog/feed/"
+      ]
+    },
+    {
+      "domain": "marketing",
+      "slug": "social-media-examiner",
+      "name": "Social Media Examiner",
+      "homepage": "https://www.socialmediaexaminer.com/",
+      "kind": "publication",
+      "strength": "platform changes, social tactics, channel-specific best practices",
+      "topic": "platform_changes",
+      "confidence": "medium",
+      "roles": ["marketing", "charles", "pinchy"],
+      "intent": ["research", "monitoring", "social", "platform_changes"],
+      "tags": ["social_media_examiner", "social", "platform_changes"],
+      "feed_urls": [
+        "https://www.socialmediaexaminer.com/feed/"
+      ]
+    },
+    {
+      "domain": "marketing",
+      "slug": "marketingprofs",
+      "name": "MarketingProfs",
+      "homepage": "https://www.marketingprofs.com/",
+      "kind": "publication",
+      "strength": "campaign planning, B2B demand, content operations, distribution research",
+      "topic": "campaign_operations",
+      "confidence": "high",
+      "roles": ["marketing", "pinchy", "writer"],
+      "intent": ["research", "monitoring", "campaigns", "distribution_examples"],
+      "tags": ["marketingprofs", "campaigns", "b2b_marketing"],
+      "feed_urls": [
+        "https://www.marketingprofs.com/xmlarticles/rss.asp"
+      ]
+    },
+    {
+      "domain": "marketing",
+      "slug": "hootsuite",
+      "name": "Hootsuite",
+      "homepage": "https://blog.hootsuite.com/",
+      "kind": "publication",
+      "strength": "social media operations, platform tactics, channel playbooks",
+      "topic": "social_distribution",
+      "confidence": "high",
+      "roles": ["marketing", "charles", "pinchy"],
+      "intent": ["research", "monitoring", "social", "distribution_examples"],
+      "tags": ["hootsuite", "social_media", "distribution"],
+      "feed_urls": [
+        "https://blog.hootsuite.com/feed/"
+      ]
+    },
+    {
+      "domain": "marketing",
+      "slug": "convince-and-convert",
+      "name": "Convince & Convert",
+      "homepage": "https://www.convinceandconvert.com/",
+      "kind": "publication",
+      "strength": "content marketing strategy, brand communication, social/customer experience thinking",
+      "topic": "brand_distribution",
+      "confidence": "medium",
+      "roles": ["marketing", "pinchy", "writer"],
+      "intent": ["research", "monitoring", "distribution_examples", "message_framing"],
+      "tags": ["convince_and_convert", "content_marketing", "brand"],
+      "enabled": false,
+      "inactive_reason": "Feed returned persistent 403 during live Phase 12 verification.",
+      "feed_urls": [
+        "https://www.convinceandconvert.com/feed/"
+      ]
+    }
+  ]
+}

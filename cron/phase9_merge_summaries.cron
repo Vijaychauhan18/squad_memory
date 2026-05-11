@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 9 runs.
+# The active system uses the locked wrapper instead.
+
+75 */6 * * * /Users/vijaychauhan/squad_memory/run_phase9_merge_summaries.sh

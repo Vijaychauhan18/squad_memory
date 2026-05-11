@@ -1,0 +1,2 @@
+# Phase 4: router updates, bundle refresh, and promotion gate
+53 */6 * * * /Users/vijaychauhan/squad_memory/run_phase4_router_refresh.sh

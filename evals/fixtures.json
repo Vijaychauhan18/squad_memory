@@ -1,0 +1,279 @@
+{
+  "cases": [
+    {
+      "query": "Need a plan for AI visibility, brand mentions, and AIO traffic loss for our SEO squad",
+      "role": "pinchy",
+      "expected_primary_skill": "seo",
+      "expected_skills": ["seo"],
+      "expected_paths": [
+        "seo/memory/ahrefs-ai-visibility-guide.md",
+        "seo/memory/seo-source-canon-2026.md"
+      ]
+    },
+    {
+      "query": "Need to reverse engineer grounding snippets, selection rate, and hidden fan-out in AI search",
+      "expected_primary_skill": "dejan-ai-reverse-engineering",
+      "expected_skills": ["dejan-ai-reverse-engineering", "seo"],
+      "expected_paths": ["dejan-ai-reverse-engineering/references/reverse-engineering-checklist.md"]
+    },
+    {
+      "query": "Need to diagnose why our page ranks but does not get selected into AI answers",
+      "expected_primary_skill": "dejan-ai-reverse-engineering",
+      "expected_skills": ["dejan-ai-reverse-engineering", "seo"],
+      "expected_paths": ["seo/memory/dejan-ai-reverse-engineering-pack.md", "dejan-ai-reverse-engineering/references/reverse-engineering-checklist.md"]
+    },
+    {
+      "query": "Need a blog post draft from an SEO brief with strong hook and clear structure",
+      "expected_primary_skill": "writer",
+      "expected_skills": ["writer", "writer-plankton"],
+      "expected_paths": ["writer/memory/brief-to-draft.md", "writer/memory/hooks-and-structure.md", "writer/SKILL.md"]
+    },
+    {
+      "query": "Need to triage a customer issue, respond fast, and escalate if severity is high",
+      "expected_primary_skill": "support-anemone",
+      "expected_skills": ["support-anemone", "support"],
+      "expected_paths": ["support/SKILL.md", "support-anemone/memory/anemone-operating-canon-2026.md", "support-anemone/memory/fast-first-response-and-severity-triage.md", "support-anemone/AGENTS.md"]
+    },
+    {
+      "query": "Need to fix a production bug, write tests, and review the patch",
+      "expected_primary_skill": "developer",
+      "expected_skills": ["developer", "reviewer", "qa"],
+      "expected_paths": ["developer/memory/developer-operating-canon-2026.md", "developer/memory/bug-reproduction-and-fix-workflow.md", "reviewer/SKILL.md", "qa/memory/qa-operating-canon-2026.md"]
+    },
+    {
+      "query": "Need an SEO diagnosis of weak click satisfaction, pogo sticking, and CTR-based ranking drops",
+      "expected_primary_skill": "seo",
+      "expected_skills": ["seo", "seo-coral"],
+      "expected_paths": ["seo/memory/hobo-navboost.md"]
+    },
+    {
+      "query": "Need a trust and site-quality audit plan for a YMYL domain with weak authority markers",
+      "expected_primary_skill": "seo",
+      "expected_skills": ["seo", "seo-coral"],
+      "expected_paths": ["seo/memory/hobo-eeat-quality-score.md", "seo/memory/ahrefs-eeat-audit-2026.md"]
+    },
+    {
+      "query": "Need to inspect AI Mode as a tool-using system and map retrieval versus serving behavior",
+      "expected_primary_skill": "dejan-ai-reverse-engineering",
+      "expected_skills": ["dejan-ai-reverse-engineering", "seo"],
+      "expected_paths": ["dejan-ai-reverse-engineering/references/dejan-models-and-systems.md"]
+    },
+    {
+      "query": "Need a brief-to-draft workflow for turning a content brief into an outline and first draft",
+      "expected_primary_skill": "writer",
+      "expected_skills": ["writer", "writer-plankton"],
+      "expected_paths": ["writer/memory/brief-to-draft.md"]
+    },
+    {
+      "query": "Need fresh writing examples, editorial patterns, and trusted source ideas before drafting this piece",
+      "expected_primary_skill": "writer",
+      "expected_skills": ["writer", "writer-plankton"],
+      "expected_paths": ["writer/memory/writer-external-source-canon-2026.md"]
+    },
+    {
+      "query": "Need to sharpen the first line, improve readability, and restructure a rough article draft",
+      "expected_primary_skill": "writer",
+      "expected_skills": ["writer", "writer-plankton"],
+      "expected_paths": ["writer/memory/hooks-and-structure.md"]
+    },
+    {
+      "query": "Need landing page headline, subheadline, benefit bullets, and a CTA around the core promise",
+      "expected_primary_skill": "writer",
+      "expected_skills": ["writer", "writer-plankton"],
+      "expected_paths": ["writer/memory/landing-page-copy.md"]
+    },
+    {
+      "query": "Need to turn setup instructions into clear product docs with steps, checks, and troubleshooting",
+      "expected_primary_skill": "writer",
+      "expected_skills": ["writer", "writer-plankton"],
+      "expected_paths": ["writer/memory/documentation-and-guides.md"]
+    },
+    {
+      "query": "Need a four-email nurture sequence for a launch with one clear CTA per send",
+      "expected_primary_skill": "writer",
+      "expected_skills": ["writer", "marketing"],
+      "expected_paths": ["writer/memory/email-sequences.md"]
+    },
+    {
+      "query": "Need a distribution system for promoting each new article across social, email, and community",
+      "expected_primary_skill": "marketing",
+      "expected_skills": ["marketing", "marketing-current"],
+      "expected_paths": ["marketing/memory/distribution-system.md"]
+    },
+    {
+      "query": "Need platform-native versions of the same message for LinkedIn, X, and community posts",
+      "expected_primary_skill": "charles",
+      "expected_skills": ["charles", "marketing"],
+      "expected_paths": ["charles/memory/platform-native-posting-system.md", "charles/memory/charles-operating-canon-2026.md"]
+    },
+    {
+      "query": "Need a newsletter blurb and email promo for a new content release",
+      "expected_primary_skill": "marketing",
+      "expected_skills": ["marketing", "writer"],
+      "expected_paths": ["marketing/memory/email-newsletter.md"]
+    },
+    {
+      "query": "Need a launch plan with follow-up posts, alternate angles, and traction checks for the next three days",
+      "expected_primary_skill": "marketing",
+      "expected_skills": ["marketing", "charles"],
+      "expected_paths": ["marketing/memory/launch-and-followup.md"]
+    },
+    {
+      "query": "Need a weekly marketing report showing what shipped, what got clicks, and what to repeat next week",
+      "expected_primary_skill": "marketing",
+      "expected_skills": ["marketing", "marketing-current"],
+      "expected_paths": ["marketing/memory/metrics-and-feedback-loop.md"]
+    },
+    {
+      "query": "Need fresh marketing examples, channel trends, and trusted external sources before planning this rollout",
+      "expected_primary_skill": "marketing",
+      "expected_skills": ["marketing", "marketing-current"],
+      "expected_paths": ["marketing/memory/marketing-external-source-canon-2026.md"]
+    },
+    {
+      "query": "Need to repurpose a new article into social posts with stronger hooks for LinkedIn and X",
+      "expected_primary_skill": "charles",
+      "expected_skills": ["charles", "marketing"],
+      "expected_paths": ["charles/memory/platform-native-posting-system.md", "charles/memory/charles-operating-canon-2026.md"]
+    },
+    {
+      "query": "Need a content calendar for the next week based on what formats performed best",
+      "expected_primary_skill": "charles",
+      "expected_skills": ["marketing", "charles"],
+      "expected_paths": ["charles/memory/social-calendar-and-trend-radar.md", "charles/memory/charles-operating-canon-2026.md"]
+    },
+    {
+      "query": "Need to coordinate writer, SEO, and marketing for a launch and keep the handoffs clean",
+      "role": "pinchy",
+      "expected_primary_skill": "orchestrator-pinchy",
+      "expected_skills": ["orchestrator-pinchy", "operations"],
+      "expected_paths": ["orchestrator-pinchy/AGENTS.md", "operations/AGENTS.md", "multi-agent-reef/SKILL.md"]
+    },
+    {
+      "query": "Need a structured market landscape and competitor report with sources",
+      "expected_primary_skill": "researcher",
+      "expected_skills": ["researcher", "researcher-kelp"],
+      "expected_paths": ["researcher/SKILL.md", "researcher/TOOLS.md"]
+    },
+    {
+      "query": "Need to triage a billing issue, calm the customer, and escalate if severity is high",
+      "expected_primary_skill": "support-anemone",
+      "expected_skills": ["support-anemone", "support"],
+      "expected_paths": ["support/SKILL.md", "support-anemone/memory/anemone-operating-canon-2026.md", "support-anemone/memory/fast-first-response-and-severity-triage.md", "support-anemone/AGENTS.md"]
+    },
+    {
+      "query": "Need an invoice follow-up and a simple expense summary for the month",
+      "expected_primary_skill": "finance",
+      "expected_skills": ["finance", "finance-krill"],
+      "expected_paths": ["finance/SKILL.md", "finance/IDENTITY.md"]
+    },
+    {
+      "query": "Need a weekly status report with owners, timelines, and blockers called out clearly",
+      "expected_primary_skill": "operations",
+      "expected_skills": ["operations", "operations-urchin"],
+      "expected_paths": ["operations/SKILL.md", "operations/HEARTBEAT.md"]
+    },
+    {
+      "query": "Need a regression test plan and pass-fail gate before deployment",
+      "expected_primary_skill": "qa",
+      "expected_skills": ["qa", "qa-reef"],
+      "expected_paths": ["qa/memory/qa-operating-canon-2026.md", "qa/memory/regression-gate-and-release-verdicts.md", "qa/SKILL.md", "qa/AGENTS.md"]
+    },
+    {
+      "query": "Need a code review focused on correctness, security, and maintainability risks",
+      "expected_primary_skill": "reviewer",
+      "expected_skills": ["reviewer", "reviewer-barnacle"],
+      "expected_paths": ["reviewer/SKILL.md", "reviewer/IDENTITY.md", "reviewer/SOUL.md"]
+    },
+    {
+      "query": "Need a rollback plan for a production incident and a safe deploy checklist",
+      "expected_primary_skill": "devops",
+      "expected_skills": ["devops", "devops-tide"],
+      "expected_paths": ["devops/SKILL.md", "devops/HEARTBEAT.md"]
+    },
+    {
+      "query": "Need to implement a feature cleanly and add tests before handing it off",
+      "expected_primary_skill": "developer",
+      "expected_skills": ["developer", "developer-chitin", "qa"],
+      "expected_paths": ["developer/memory/developer-operating-canon-2026.md", "developer/memory/implementation-and-tdd-loop.md", "developer/SKILL.md"]
+    },
+    {
+      "query": "Need visual direction and asset guidance for a campaign landing page",
+      "expected_primary_skill": "emily",
+      "expected_skills": ["emily", "marketing"],
+      "expected_paths": ["emily/SKILL.md", "emily/IDENTITY.md"]
+    },
+    {
+      "query": "Need a multi-agent handoff workflow so specialists stop stepping on each other",
+      "expected_primary_skill": "multi-agent-reef",
+      "expected_skills": ["multi-agent-reef", "orchestrator-pinchy"],
+      "expected_paths": ["multi-agent-reef/SKILL.md", "multi-agent-reef/references/checklists/upgrade-checklist.md", "multi-agent-reef/references/README.md"]
+    },
+    {
+      "query": "Need to fact-check a set of claims and turn them into a sourced internal brief",
+      "expected_primary_skill": "researcher",
+      "expected_skills": ["researcher", "researcher-kelp"],
+      "expected_paths": ["researcher/SKILL.md", "researcher/IDENTITY.md"]
+    },
+    {
+      "query": "Need a support response playbook for fast first replies and clean escalation",
+      "expected_primary_skill": "support-anemone",
+      "expected_skills": ["support-anemone", "support"],
+      "expected_paths": ["support-anemone/memory/anemone-operating-canon-2026.md", "support-anemone/memory/fast-first-response-and-severity-triage.md", "support-anemone/memory/bug-escalation-and-engineering-handoff.md", "support-anemone/AGENTS.md"]
+    },
+    {
+      "query": "Need a cash flow snapshot and clean bookkeeping checklist before month end",
+      "expected_primary_skill": "finance",
+      "expected_skills": ["finance", "finance-krill"],
+      "expected_paths": ["finance/SKILL.md", "finance/HEARTBEAT.md"]
+    },
+    {
+      "query": "Need an owner-based operations plan with deadlines and risk flags for the next sprint",
+      "expected_primary_skill": "operations",
+      "expected_skills": ["operations", "operations-urchin"],
+      "expected_paths": ["operations/SKILL.md", "operations/AGENTS.md"]
+    },
+    {
+      "query": "Need QA edge cases for a checkout flow change and a clear PASS FAIL verdict",
+      "expected_primary_skill": "qa",
+      "expected_skills": ["qa", "qa-reef"],
+      "expected_paths": ["qa/memory/qa-operating-canon-2026.md", "qa/memory/test-matrix-and-edge-case-coverage.md", "qa/memory/regression-gate-and-release-verdicts.md"]
+    },
+    {
+      "query": "Need reviewer-level feedback on a patch with likely performance and security regressions",
+      "expected_primary_skill": "reviewer",
+      "expected_skills": ["reviewer", "reviewer-barnacle"],
+      "expected_paths": ["reviewer/SKILL.md", "reviewer/IDENTITY.md", "reviewer/SOUL.md"]
+    },
+    {
+      "query": "Need a CI CD incident response and rollback workflow for a failed production release",
+      "expected_primary_skill": "devops",
+      "expected_skills": ["devops", "devops-tide"],
+      "expected_paths": ["devops/SKILL.md", "devops/AGENTS.md", "devops/HEARTBEAT.md", "devops/IDENTITY.md"]
+    },
+    {
+      "query": "Need a weekly creator-style posting plan and engagement routine for social channels",
+      "expected_primary_skill": "charles",
+      "expected_skills": ["charles", "marketing"],
+      "expected_paths": ["charles/memory/social-calendar-and-trend-radar.md", "charles/memory/community-engagement-loop.md"]
+    },
+    {
+      "query": "Need fresh creator examples, recent platform changes, and trusted social sources before planning next week's founder content",
+      "expected_primary_skill": "charles",
+      "expected_skills": ["charles", "marketing"],
+      "expected_paths": ["charles/memory/charles-external-source-canon-2026.md", "charles/SKILL.md"]
+    },
+    {
+      "query": "Need fresh engineering examples, recent tooling changes, and trusted developer sources before choosing a safe refactor approach",
+      "expected_primary_skill": "developer",
+      "expected_skills": ["developer", "reviewer"],
+      "expected_paths": ["developer/memory/developer-external-source-canon-2026.md", "developer/memory/developer-operating-canon-2026.md"]
+    },
+    {
+      "query": "Need recent QA tooling changes and trusted testing sources before updating our regression strategy",
+      "expected_primary_skill": "qa",
+      "expected_skills": ["qa", "developer"],
+      "expected_paths": ["qa/memory/qa-external-source-canon-2026.md", "qa/memory/qa-operating-canon-2026.md"]
+    }
+  ]
+}

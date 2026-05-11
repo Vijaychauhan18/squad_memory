@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Ahrefs Blog</title>
+    <link>https://ahrefs.com/blog/</link>
+    <description>Ahrefs fixture feed</description>
+    <item>
+      <title>What AI Visibility Means for SEO Teams</title>
+      <link>https://ahrefs.com/blog/ai-visibility-for-seo-teams/</link>
+      <pubDate>Thu, 19 Mar 2026 09:00:00 GMT</pubDate>
+      <description>Fixture study on AI visibility, mentions, and citation workflows.</description>
+    </item>
+    <item>
+      <title>Brand Mentions and AI Overviews</title>
+      <link>https://ahrefs.com/blog/brand-mentions-ai-overviews/</link>
+      <pubDate>Wed, 18 Mar 2026 09:00:00 GMT</pubDate>
+      <description>Fixture note on branded demand and AI citation economics.</description>
+    </item>
+  </channel>
+</rss>

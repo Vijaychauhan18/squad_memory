@@ -1,0 +1,228 @@
+{
+  "name": "Elite SEO Expert Live Monitor",
+  "description": "Official guidance and top-tier SEO practitioners for a clean elite live memory layer.",
+  "sources": [
+    {
+      "slug": "google-search-central",
+      "name": "Google Search Central Blog",
+      "homepage": "https://developers.google.com/search/blog",
+      "kind": "official",
+      "strength": "official search guidance, Search Console changes, structured data and policy updates",
+      "topic": "official_guidance",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "policy_tracking"],
+      "tags": ["google", "official", "search_central", "policy"],
+      "feed_urls": ["https://feeds.feedburner.com/blogspot/amDG"]
+    },
+    {
+      "slug": "ahrefs",
+      "name": "Ahrefs Blog",
+      "homepage": "https://ahrefs.com/blog/",
+      "kind": "publication",
+      "strength": "large-scale SEO studies, AI visibility, product workflows, brand radar",
+      "topic": "seo_research",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy", "current"],
+      "intent": ["research", "monitoring", "source_selection", "ai_visibility"],
+      "tags": ["ahrefs", "publication", "data_studies", "ai_visibility"],
+      "feed_urls": ["https://ahrefs.com/blog/feed/"],
+      "listing_urls": [
+        "https://ahrefs.com/blog/page/2/",
+        "https://ahrefs.com/blog/page/3/",
+        "https://ahrefs.com/blog/page/4/",
+        "https://ahrefs.com/blog/page/5/",
+        "https://ahrefs.com/blog/page/6/",
+        "https://ahrefs.com/blog/page/7/",
+        "https://ahrefs.com/blog/page/8/"
+      ],
+      "supplement_listing_urls": true
+    },
+    {
+      "slug": "dejan",
+      "name": "DEJAN / Dan Petrovic",
+      "homepage": "https://dejan.ai/blog/",
+      "kind": "practitioner",
+      "strength": "AI-search reverse engineering, grounding, AI Mode, machine readability",
+      "topic": "ai_reverse_engineering",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["research", "monitoring", "source_selection", "ai_selection"],
+      "tags": ["dejan", "practitioner", "reverse_engineering", "grounding"],
+      "feed_urls": ["https://dejan.ai/blog/feed/"],
+      "listing_urls": [
+        "https://dejan.ai/blog/page/2/",
+        "https://dejan.ai/blog/page/3/",
+        "https://dejan.ai/blog/page/4/",
+        "https://dejan.ai/blog/page/5/",
+        "https://dejan.ai/blog/page/6/",
+        "https://dejan.ai/blog/page/7/",
+        "https://dejan.ai/blog/page/8/"
+      ],
+      "supplement_listing_urls": true
+    },
+    {
+      "slug": "gsqi",
+      "name": "Glenn Gabe / GSQi",
+      "homepage": "https://www.gsqi.com/marketing-blog/",
+      "kind": "practitioner",
+      "strength": "core updates, quality systems, AI-surface impact, feature swaps",
+      "topic": "quality_systems",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "leak_systems"],
+      "tags": ["gsqi", "practitioner", "quality_systems", "core_updates"],
+      "feed_urls": ["https://www.gsqi.com/marketing-blog/feed/"],
+      "listing_urls": [
+        "https://www.gsqi.com/marketing-blog/page/2/",
+        "https://www.gsqi.com/marketing-blog/page/3/",
+        "https://www.gsqi.com/marketing-blog/page/4/",
+        "https://www.gsqi.com/marketing-blog/page/5/"
+      ],
+      "supplement_listing_urls": true
+    },
+    {
+      "slug": "marie",
+      "name": "Marie Haynes",
+      "homepage": "https://www.mariehaynes.com/",
+      "kind": "practitioner",
+      "strength": "AI Mode chronology, quality raters, query fan-out, AI content policy",
+      "topic": "rollout_and_qrg",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "ai_selection"],
+      "tags": ["marie_haynes", "practitioner", "qrg", "ai_mode"],
+      "feed_urls": ["https://www.mariehaynes.com/feed/"],
+      "listing_urls": ["https://www.mariehaynes.com/"],
+      "listing_fallback": true
+    },
+    {
+      "slug": "lily",
+      "name": "Lily Ray",
+      "homepage": "https://lilyray.nyc/blog/",
+      "kind": "practitioner",
+      "strength": "AI-search trust, AIO quality, Gemini grounding, Google commentary",
+      "topic": "trust_and_rag",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "ai_visibility"],
+      "tags": ["lily_ray", "practitioner", "trust", "ai_visibility"],
+      "feed_urls": ["https://lilyray.nyc/feed/"],
+      "listing_urls": ["https://lilyray.nyc/blog/"],
+      "listing_fallback": true
+    },
+    {
+      "slug": "mobilemoxie",
+      "name": "Cindy Krum / MobileMoxie",
+      "homepage": "https://mobilemoxie.com/blog/",
+      "kind": "practitioner",
+      "strength": "mobile SERP observation, Fraggles, passage visibility, AI overview tracking",
+      "topic": "serp_observation",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "ai_visibility"],
+      "tags": ["cindy_krum", "mobilemoxie", "practitioner", "serp_observation"],
+      "feed_urls": ["https://mobilemoxie.com/blog/feed/"],
+      "listing_urls": [
+        "https://mobilemoxie.com/blog/page/2/",
+        "https://mobilemoxie.com/blog/page/3/",
+        "https://mobilemoxie.com/blog/page/4/",
+        "https://mobilemoxie.com/blog/page/5/"
+      ],
+      "supplement_listing_urls": true
+    },
+    {
+      "slug": "brodie",
+      "name": "Brodie Clark",
+      "homepage": "https://brodieclark.com/",
+      "kind": "practitioner",
+      "strength": "AI Mode tracking, Search Console experiments, SERP feature timelines",
+      "topic": "reporting_and_serp_features",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "ai_visibility"],
+      "tags": ["brodie_clark", "practitioner", "reporting", "serp_features"],
+      "feed_urls": ["https://brodieclark.com/feed/"],
+      "listing_urls": ["https://brodieclark.com/"],
+      "listing_fallback": true
+    },
+    {
+      "slug": "ipullrank",
+      "name": "Mike King / iPullRank",
+      "homepage": "https://ipullrank.com/",
+      "kind": "practitioner",
+      "strength": "relevance engineering, GEO, query fan-out, embeddings, AI-search strategy",
+      "topic": "relevance_engineering",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "ai_selection"],
+      "tags": ["ipullrank", "practitioner", "relevance_engineering", "embeddings"],
+      "feed_urls": ["https://ipullrank.com/feed/"],
+      "listing_urls": [
+        "https://ipullrank.com/page/2/",
+        "https://ipullrank.com/page/3/",
+        "https://ipullrank.com/page/4/",
+        "https://ipullrank.com/page/5/"
+      ],
+      "supplement_listing_urls": true
+    },
+    {
+      "slug": "aleyda",
+      "name": "Aleyda Solis",
+      "homepage": "https://www.aleydasolis.com/en/",
+      "kind": "practitioner",
+      "strength": "international SEO, AI-search operations, SERP economics, curation",
+      "topic": "operations_and_international",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy", "current"],
+      "intent": ["monitoring", "research", "source_selection", "operations"],
+      "tags": ["aleyda_solis", "practitioner", "international", "operations"],
+      "feed_urls": [
+        "https://www.aleydasolis.com/en/feed/",
+        "https://www.aleydasolis.com/feed/"
+      ],
+      "listing_fallback": true
+    },
+    {
+      "slug": "jono",
+      "name": "Jono Alderson",
+      "homepage": "https://www.jonoalderson.com/",
+      "kind": "practitioner",
+      "strength": "technical architecture, structured data, performance, information architecture",
+      "topic": "technical_architecture",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy", "developer"],
+      "intent": ["monitoring", "research", "source_selection", "technical_seo"],
+      "tags": ["jono_alderson", "practitioner", "technical_architecture", "structured_data"],
+      "feed_urls": ["https://www.jonoalderson.com/feed/"],
+      "listing_urls": [
+        "https://www.jonoalderson.com/page/2/",
+        "https://www.jonoalderson.com/page/3/",
+        "https://www.jonoalderson.com/page/4/",
+        "https://www.jonoalderson.com/page/5/"
+      ],
+      "supplement_listing_urls": true
+    },
+    {
+      "slug": "patrickstox",
+      "name": "Patrick Stox",
+      "homepage": "https://ahrefs.com/blog/author/patrick-stox/",
+      "kind": "practitioner",
+      "strength": "technical SEO, crawling, indexing, JavaScript SEO, search systems",
+      "topic": "technical_seo",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy", "developer"],
+      "intent": ["monitoring", "research", "source_selection", "technical_seo"],
+      "tags": ["patrick_stox", "practitioner", "technical_seo", "crawling"],
+      "feed_urls": [],
+      "listing_urls": [
+        "https://ahrefs.com/blog/author/patrick-stox/",
+        "https://ahrefs.com/blog/author/patrick-stox/page/2/",
+        "https://ahrefs.com/blog/author/patrick-stox/page/3/",
+        "https://ahrefs.com/blog/author/patrick-stox/page/4/",
+        "https://ahrefs.com/blog/author/patrick-stox/page/5/"
+      ],
+      "listing_fallback": true
+    }
+  ]
+}

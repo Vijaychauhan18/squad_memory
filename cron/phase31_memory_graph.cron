@@ -1,0 +1,1 @@
+11 */6 * * * /Users/vijaychauhan/squad_memory/run_phase31_memory_graph.sh >> /Users/vijaychauhan/squad_memory/logs/phase31_memory_graph.log 2>&1

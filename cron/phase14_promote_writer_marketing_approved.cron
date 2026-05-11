@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 14 runs.
+# The active system uses the locked wrapper instead.
+
+29 */6 * * * /Users/vijaychauhan/squad_memory/run_phase14_promote_writer_marketing_approved.sh

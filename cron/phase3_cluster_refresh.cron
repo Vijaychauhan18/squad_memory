@@ -1,0 +1,2 @@
+# Phase 3: overlap clustering, freshness scoring, and eval gating
+41 */6 * * * /Users/vijaychauhan/squad_memory/run_phase3_cluster_refresh.sh

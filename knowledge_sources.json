@@ -1,0 +1,233 @@
+{
+  "name": "Phase 1 Knowledge Source Monitor",
+  "description": "Trusted SEO publications and practitioners for live source ingestion.",
+  "sources": [
+    {
+      "slug": "ahrefs",
+      "name": "Ahrefs Blog",
+      "homepage": "https://ahrefs.com/blog/",
+      "kind": "publication",
+      "strength": "large-scale SEO studies, AI visibility, product workflows, brand radar",
+      "topic": "seo_research",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy", "current"],
+      "intent": ["research", "monitoring", "source_selection", "ai_visibility"],
+      "tags": ["ahrefs", "publication", "data_studies", "ai_visibility"],
+      "feed_urls": [
+        "https://ahrefs.com/blog/feed/"
+      ]
+    },
+    {
+      "slug": "hobo",
+      "name": "Hobo Web",
+      "homepage": "https://www.hobo-web.co.uk/",
+      "kind": "publication",
+      "strength": "leak systems, quality scoring, E-E-A-T, click and satisfaction framing",
+      "topic": "quality_systems",
+      "confidence": "medium",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["research", "monitoring", "source_selection", "leak_systems"],
+      "tags": ["hobo", "publication", "quality", "leak_systems"],
+      "feed_urls": [
+        "https://www.hobo-web.co.uk/feed/"
+      ]
+    },
+    {
+      "slug": "dejan",
+      "name": "DEJAN / Dan Petrovic",
+      "homepage": "https://dejan.ai/blog/",
+      "kind": "practitioner",
+      "strength": "AI-search reverse engineering, grounding, AI Mode, machine readability",
+      "topic": "ai_reverse_engineering",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["research", "monitoring", "source_selection", "ai_selection"],
+      "tags": ["dejan", "practitioner", "reverse_engineering", "grounding"],
+      "feed_urls": [
+        "https://dejan.ai/blog/feed/"
+      ]
+    },
+    {
+      "slug": "google-search-central",
+      "name": "Google Search Central Blog",
+      "homepage": "https://developers.google.com/search/blog",
+      "kind": "official",
+      "strength": "official search guidance, Search Console changes, structured data and policy updates",
+      "topic": "official_guidance",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "policy_tracking"],
+      "tags": ["google", "official", "search_central", "policy"],
+      "feed_urls": [
+        "https://feeds.feedburner.com/blogspot/amDG"
+      ]
+    },
+    {
+      "slug": "search-engine-land",
+      "name": "Search Engine Land",
+      "homepage": "https://searchengineland.com/",
+      "kind": "publication",
+      "strength": "industry coverage, rollout monitoring, search product and platform changes",
+      "topic": "industry_news",
+      "confidence": "medium",
+      "roles": ["researcher", "seo", "pinchy", "current"],
+      "intent": ["monitoring", "news", "source_selection"],
+      "tags": ["searchengineland", "publication", "industry_news"],
+      "feed_urls": [
+        "https://searchengineland.com/feed/"
+      ]
+    },
+    {
+      "slug": "seroundtable",
+      "name": "Search Engine Roundtable",
+      "homepage": "https://www.seroundtable.com/",
+      "kind": "publication",
+      "strength": "fast rollout monitoring, confirmation of changes, daily search news",
+      "topic": "daily_monitoring",
+      "confidence": "medium",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "news", "source_selection"],
+      "tags": ["seroundtable", "publication", "daily_monitoring"],
+      "feed_urls": [
+        "https://www.seroundtable.com/atom.xml",
+        "https://www.seroundtable.com/index.xml"
+      ]
+    },
+    {
+      "slug": "search-engine-journal",
+      "name": "Search Engine Journal",
+      "homepage": "https://www.searchenginejournal.com/",
+      "kind": "publication",
+      "strength": "broad SEO coverage, platform updates, practitioner commentary",
+      "topic": "industry_news",
+      "confidence": "medium",
+      "roles": ["researcher", "seo", "pinchy", "current"],
+      "intent": ["monitoring", "research", "source_selection"],
+      "tags": ["searchenginejournal", "publication", "industry_news"],
+      "feed_urls": [
+        "https://www.searchenginejournal.com/feed/"
+      ]
+    },
+    {
+      "slug": "brodie",
+      "name": "Brodie Clark",
+      "homepage": "https://brodieclark.com/",
+      "kind": "practitioner",
+      "strength": "AI Mode tracking, Search Console experiments, SERP feature timelines",
+      "topic": "reporting_and_serp_features",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "ai_visibility"],
+      "tags": ["brodie_clark", "practitioner", "reporting", "serp_features"],
+      "feed_urls": [
+        "https://brodieclark.com/feed/"
+      ]
+    },
+    {
+      "slug": "gsqi",
+      "name": "Glenn Gabe / GSQi",
+      "homepage": "https://www.gsqi.com/marketing-blog/",
+      "kind": "practitioner",
+      "strength": "core updates, quality systems, AI-surface impact, feature swaps",
+      "topic": "quality_systems",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "leak_systems"],
+      "tags": ["gsqi", "practitioner", "quality_systems", "core_updates"],
+      "feed_urls": [
+        "https://www.gsqi.com/marketing-blog/feed/"
+      ]
+    },
+    {
+      "slug": "marie",
+      "name": "Marie Haynes",
+      "homepage": "https://www.mariehaynes.com/",
+      "kind": "practitioner",
+      "strength": "AI Mode chronology, quality raters, query fan-out, AI content policy",
+      "topic": "rollout_and_qrg",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "ai_selection"],
+      "tags": ["marie_haynes", "practitioner", "qrg", "ai_mode"],
+      "feed_urls": [
+        "https://www.mariehaynes.com/feed/"
+      ]
+    },
+    {
+      "slug": "mobilemoxie",
+      "name": "Cindy Krum / MobileMoxie",
+      "homepage": "https://mobilemoxie.com/blog/",
+      "kind": "practitioner",
+      "strength": "mobile SERP observation, Fraggles, passage visibility, AI overview tracking",
+      "topic": "serp_observation",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "ai_visibility"],
+      "tags": ["cindy_krum", "mobilemoxie", "practitioner", "serp_observation"],
+      "feed_urls": [
+        "https://mobilemoxie.com/blog/feed/"
+      ]
+    },
+    {
+      "slug": "lily",
+      "name": "Lily Ray",
+      "homepage": "https://lilyray.nyc/blog/",
+      "kind": "practitioner",
+      "strength": "AI-search trust, AIO quality, Gemini grounding, Google commentary",
+      "topic": "trust_and_rag",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "ai_visibility"],
+      "tags": ["lily_ray", "practitioner", "trust", "ai_visibility"],
+      "feed_urls": [
+        "https://lilyray.nyc/feed/"
+      ]
+    },
+    {
+      "slug": "ipullrank",
+      "name": "Mike King / iPullRank",
+      "homepage": "https://ipullrank.com/",
+      "kind": "practitioner",
+      "strength": "relevance engineering, GEO, query fan-out, embeddings, AI-search strategy",
+      "topic": "relevance_engineering",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy"],
+      "intent": ["monitoring", "research", "source_selection", "ai_selection"],
+      "tags": ["ipullrank", "practitioner", "relevance_engineering", "embeddings"],
+      "feed_urls": [
+        "https://ipullrank.com/feed/"
+      ]
+    },
+    {
+      "slug": "aleyda",
+      "name": "Aleyda Solis",
+      "homepage": "https://www.aleydasolis.com/en/",
+      "kind": "practitioner",
+      "strength": "international SEO, AI-search operations, SERP economics, curation",
+      "topic": "operations_and_international",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy", "current"],
+      "intent": ["monitoring", "research", "source_selection", "operations"],
+      "tags": ["aleyda_solis", "practitioner", "international", "operations"],
+      "feed_urls": [
+        "https://www.aleydasolis.com/en/feed/",
+        "https://www.aleydasolis.com/feed/"
+      ]
+    },
+    {
+      "slug": "jono",
+      "name": "Jono Alderson",
+      "homepage": "https://www.jonoalderson.com/",
+      "kind": "practitioner",
+      "strength": "technical architecture, structured data, performance, information architecture",
+      "topic": "technical_architecture",
+      "confidence": "high",
+      "roles": ["researcher", "seo", "pinchy", "developer"],
+      "intent": ["monitoring", "research", "source_selection", "technical_seo"],
+      "tags": ["jono_alderson", "practitioner", "technical_architecture", "structured_data"],
+      "feed_urls": [
+        "https://www.jonoalderson.com/feed/"
+      ]
+    }
+  ]
+}

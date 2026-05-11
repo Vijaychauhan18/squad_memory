@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DEJAN AI</title>
+  <updated>2026-03-19T15:00:00Z</updated>
+  <entry>
+    <title>Grounding Snippets and Selection Rate</title>
+    <link rel="alternate" href="https://dejan.ai/blog/grounding-snippets-selection-rate/" />
+    <updated>2026-03-19T15:00:00Z</updated>
+    <summary>Fixture atom entry on machine-readable extraction and answer selection.</summary>
+  </entry>
+  <entry>
+    <title>Query Fan-Out and Hidden Retrieval Paths</title>
+    <link rel="alternate" href="https://dejan.ai/blog/query-fan-out-hidden-retrieval/" />
+    <updated>2026-03-18T15:00:00Z</updated>
+    <summary>Fixture atom entry on fan-out, hidden queries, and reverse engineering.</summary>
+  </entry>
+</feed>

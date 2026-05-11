@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 23 runs.
+# The active system uses the locked wrapper instead.
+
+44 */6 * * * /Users/vijaychauhan/squad_memory/run_phase23_external_support.sh

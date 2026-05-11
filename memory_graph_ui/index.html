@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Squad Memory Graph</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <div class="topbar-copy">
+          <p class="eyebrow">Realtime Memory Surface</p>
+          <h1>Squad Brain 3D</h1>
+          <p class="topbar-subtitle">Premium multi-agent command surface for live memory, decisions, and technical SEO coordination.</p>
+        </div>
+        <div class="topbar-right">
+          <div class="topbar-chip">Prototype / Command Center</div>
+          <div class="status-block">
+            <span class="pulse"></span>
+            <span id="generatedAt">Refreshing...</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="hud">
+        <div class="metrics" id="metrics"></div>
+        <div class="controls">
+          <div class="view-switch" id="viewSwitch">
+            <button type="button" data-view="hq" class="is-active">HQ</button>
+            <button type="button" data-view="split">Split</button>
+            <button type="button" data-view="graph">Graph</button>
+            <button type="button" data-view="graph-pro">Graph Pro</button>
+          </div>
+          <input id="nodeSearch" type="search" placeholder="Jump to node, skill, pack, topic..." />
+          <button id="refreshButton" type="button">Refresh</button>
+        </div>
+      </section>
+
+      <section class="event-stream-shell">
+        <div class="event-stream-header">
+          <p class="eyebrow">Live Event Bus</p>
+          <span class="muted">Queries, handoffs, completions, and scorecards stream here in realtime.</span>
+        </div>
+        <div id="liveEventStream" class="event-stream"></div>
+      </section>
+
+      <main class="workspace">
+        <section class="main-stack">
+          <section class="graph-stage">
+            <div class="graph-chrome" aria-hidden="true">
+              <div class="graph-chip">Memory Constellation</div>
+              <div class="graph-chip graph-chip-accent">Chunks + canon + live handoffs</div>
+            </div>
+            <div id="graphProFilters" class="graph-pro-filters" aria-live="polite"></div>
+            <div id="graphProLayer" class="graph-pro-layer"></div>
+            <div id="graph"></div>
+          </section>
+
+          <section class="meeting-stage">
+            <div class="meeting-header">
+              <div>
+                <p class="eyebrow">Agent Meeting</p>
+                <h2 id="meetingTitle">Realtime Handoff Room</h2>
+                <p id="meetingMeta" class="muted">Live pack handoffs and agent coordination will animate here.</p>
+              </div>
+              <div class="meeting-controls">
+                <button id="meetingPrev" type="button" aria-label="Previous meeting">Prev</button>
+                <button id="meetingPause" type="button" aria-label="Pause meeting">Pause</button>
+                <button id="meetingNext" type="button" aria-label="Next meeting">Next</button>
+              </div>
+            </div>
+
+            <div class="meeting-summary" id="meetingSummary">
+              <div class="meeting-stat">
+                <span class="meeting-stat-label">Pack</span>
+                <strong id="meetingPack">Waiting</strong>
+              </div>
+              <div class="meeting-stat">
+                <span class="meeting-stat-label">Speaker</span>
+                <strong id="meetingSpeaker">Room</strong>
+              </div>
+              <div class="meeting-stat">
+                <span class="meeting-stat-label">Listener</span>
+                <strong id="meetingListener">Room</strong>
+              </div>
+              <div class="meeting-stat">
+                <span class="meeting-stat-label">Status</span>
+                <strong id="meetingStatus">Idle</strong>
+              </div>
+            </div>
+
+            <div class="meeting-statusbar">
+              <div class="meeting-counter" id="meetingCounter">Meeting 0 / 0</div>
+              <div class="meeting-progress">
+                <span id="meetingProgressFill"></span>
+              </div>
+            </div>
+
+            <div class="meeting-board" id="meetingBoard">
+              <canvas id="officeCanvas" class="office-canvas"></canvas>
+              <div class="hq-scene" aria-hidden="true">
+                <div class="hq-floor"></div>
+                <div class="hq-wall hq-wall-top"></div>
+                <div class="hq-wall hq-wall-left"></div>
+                <div class="hq-wall hq-wall-right"></div>
+                <div class="hq-pod-label pod-content">Content Pod</div>
+                <div class="hq-pod-label pod-seo">SEO Pod</div>
+                <div class="hq-pod-label pod-dev">Dev Pod</div>
+                <div class="hq-pod-label pod-qa">QA Gate</div>
+                <div class="hq-pod-label pod-support">Ops / Support</div>
+                <div class="hq-path path-content"></div>
+                <div class="hq-path path-seo"></div>
+                <div class="hq-path path-dev"></div>
+                <div class="hq-path path-support"></div>
+                <div class="hq-board-zone">
+                  <span id="hqBoardLabel">Brief Wall</span>
+                </div>
+                <div class="hq-desk desk-1"><span></span></div>
+                <div class="hq-desk desk-2"><span></span></div>
+                <div class="hq-desk desk-3"><span></span></div>
+                <div class="hq-desk desk-4"><span></span></div>
+                <div class="hq-desk desk-5"><span></span></div>
+                <div class="hq-lounge">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <svg id="meetingSvg"></svg>
+              <div id="meetingNodes" class="meeting-nodes"></div>
+              <div class="meeting-center">
+                <span>Squad HQ</span>
+              </div>
+              <div class="meeting-room-rail">
+                <div id="meetingLiveCard" class="meeting-live-card"></div>
+                <div id="meetingRoomTicker" class="meeting-room-ticker"></div>
+              </div>
+              <div id="meetingPodCard" class="meeting-pod-card"></div>
+              <div id="meetingBubble" class="meeting-bubble"></div>
+            </div>
+
+            <div id="meetingAgenda" class="meeting-agenda"></div>
+            <div id="meetingTicker" class="meeting-ticker"></div>
+            <div id="meetingTranscript" class="meeting-transcript"></div>
+          </section>
+        </section>
+        <aside class="inspector">
+          <div class="panel">
+            <p class="eyebrow">Selection</p>
+            <h2 id="nodeTitle">Squad Brain</h2>
+            <p id="nodeMeta" class="muted">Click a node to inspect the live memory surface.</p>
+            <div id="nodeTags" class="tag-row"></div>
+            <pre id="nodeDetails"></pre>
+          </div>
+
+          <div class="panel">
+            <p class="eyebrow">Legend</p>
+            <div class="legend">
+              <div><span class="dot domain"></span> Domain clusters</div>
+              <div><span class="dot pack"></span> Task packs</div>
+              <div><span class="dot skill"></span> Skills</div>
+              <div><span class="dot memory-bank"></span> Memory banks</div>
+              <div><span class="dot topic"></span> Canon topics</div>
+              <div><span class="dot note"></span> Primary notes</div>
+              <div><span class="dot outcome"></span> Recent task outcomes</div>
+              <div><span class="dot alert"></span> Active alerts</div>
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script type="module" src="/graph-pro.js"></script>
+    <script src="/app.js"></script>
+  </body>
+  </html>
