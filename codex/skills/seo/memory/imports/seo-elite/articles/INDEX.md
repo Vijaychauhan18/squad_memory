@@ -1,0 +1,45 @@
+# Elite Article Harvest Index
+
+Generated article-level notes from the elite SEO source snapshots.
+
+- ahrefs: 526 notes
+- aleyda: 75 notes
+- backlinko: 659 notes
+- bing-webmaster: 3 notes
+- brodie: 88 notes
+- builtvisible: 381 notes
+- bulk-source-ahrefs: 34 notes
+- bulk-source-aleyda: 5 notes
+- bulk-source-dejan: 90 notes
+- bulk-source-hobo: 10 notes
+- bulk-source-ipullrank: 11 notes
+- bulk-source-jono: 1 notes
+- bulk-source-marie: 3 notes
+- bulk-source-moz: 1 notes
+- bulk-source-patrickstox: 1 notes
+- bulk-source-screamingfrog: 8 notes
+- dejan: 152 notes
+- detailed: 70 notes
+- google-search-central: 45 notes
+- gsqi: 283 notes
+- hobo: 260 notes
+- ipullrank: 72 notes
+- jono: 82 notes
+- lily: 29 notes
+- marie: 250 notes
+- mobilemoxie: 234 notes
+- moz: 92 notes
+- oncrawl: 834 notes
+- onely: 358 notes
+- patrickstox: 36 notes
+- portent: 230 notes
+- screamingfrog: 842 notes
+- search-engine-journal: 285 notes
+- search-engine-land: 468 notes
+- searchpilot: 332 notes
+- semrush: 250 notes
+- seroundtable: 354 notes
+- sistrix: 701 notes
+- technicalseo: 61 notes
+- yoast: 119 notes
+- zyppy: 290 notes

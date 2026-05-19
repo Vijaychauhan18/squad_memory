@@ -1,0 +1,51 @@
+---
+source: https://www.searchenginejournal.com/shopping-cart-search-engine-optimization/1166/
+title: Shopping Cart Search Engine Optimization
+scraped: 2026-03-23
+published_on: 2004-12-17
+tags: live_feed, phase1_ingest, search-engine-journal, searchenginejournal, publication, industry-news, archive_backfill, historical_source
+topic: industry_news
+intent: monitoring, research, source_selection
+role: researcher, seo, pinchy, current
+confidence: medium
+canonical: false
+canonical_group: Archive backfill - Search Engine Journal
+use_for: historical_patterns, archive_research, source_examples
+avoid_for: final_strategy_without_canonical_review
+---
+
+# Shopping Cart Search Engine Optimization
+
+Source: Search Engine Journal
+Homepage: https://www.searchenginejournal.com/
+Original URL: https://www.searchenginejournal.com/shopping-cart-search-engine-optimization/1166/
+Published: 2004-12-17
+Strength: broad SEO coverage, platform updates, practitioner commentary
+
+## Summary
+Shopping Cart Search Engine Optimization I had a few interesting conversations about shopping carts last week. (Note to Yahoo, anyone who has two
+
+## Extracted Body
+I had a few interesting conversations about shopping carts last week. (Note to Yahoo, anyone who has two interesting conversations about shopping carts in the same seven-day period needs better online entertainment options. Please step up the pace.) Actually, shopping carts are fairly interesting, if only because they are so fundamentally important. With the rise in consumer acceptance of e-commerce comes a tidal wave of merchant awareness and in a massive page by page process, shopping carts have rapidly expanded the size of the web and will continue to do so until a better way comes along to sell stuff. They are also expanding the sizes of search engine databases with mixed results. Shopping carts are either fast moving or fairly static. In some cases, product listings can change faster than Yahoo updates its cache of the page those products were listed on. There are a number of issues that can be associated with these problems and since each website is unique, general rules tend to be applied as solutions until work-arounds are devised or purchased.
+
+The first â€œconversationâ€ was actually an Email correspondence with a site developer/SEO in the UK named Christine who wanted to know why Yahoo would ask webmasters to use robots.txt files to prevent Slurp from deep-spidering specific product pages in shopping carts. She was right when she wrote, â€œI thought it would help (Slurp) as it would see all the products, and be more relevant, and then when someone searches for … say a necklace then they would come up with the necklace shopping cart section.â€ It stands to reason that relevant results might be found deep within a e-commerce database on a shopping cart page and excluding these pages from Yahoo’s organic index serves to limit the range of information available to searchers. There are several good reasons Yahoo and other search engines would rather not spider their way deep into the hearts of shopping cart databases. At the same time, there are millions of merchants selling billions of items that consumers are looking to purchase online who would benefit from Top10 placements for specific products in their inventories.
+
+The second conversation was with StepForth Placement’s sales manager, Bill Stroll as he and I were looking at strategies around E-commerce sites. Bill pointed out that StepForth was receiving a number of recent inquiries regarding shopping carts.
+
+Both conversations got me thinking about shopping carts and the frustration that can come when targeting specific product placement through shopping carts.
+
+Shopping carts are relatively easy to establish and populate. For merchants, opening an E-store is easier today than ever before with many ISPs offering some basic shopping cart as a web development tool and hundreds of different shopping cart software packages on the market. If you hang out in the IT field, chances are you know someone who has built or worked on someone else’s customized shopping cart. For SEOs, every new shopping cart can pose steep learning curves if they are intent on achieving specific product placements.
+
+For search engines, the internal pages of a database might provide excellent information or, they might produce stale results left over from the last time the spider visited. Some webmasters haven’t quite mastered the art of their shopping carts. I’ve encountered lost pages, blind links, ancient products that don’t exist anymore, orphaned links, databases created by on-the-fly reference/link generators that mechanically spit out thousands of carbon copy pages… the list can go on and on. If a guy like me has seen enough to say he’s seen a lot, try to imagine what the search engines spiders see and record. There’s a lot of noise pollution in them there search-engines. All of the major engines spit out bad results from time to time and Yahoo is no exception. Asking webmasters to exclude spiders from shopping carts is one of the ways Yahoo is trying to clean up its SEPRs.
+
+Nevertheless, search engines are a marketing tool and without a listing, a product will sell much less than it would if it was easily found in the Top10 results. There are two ways to go about getting these listings, one of which produces very rapid results but can be rather pricey, the other of which takes a bit longer and presents a slightly lower chance of sustaining strong rankings for shopping carts over time. Both options benefit greatly from treatment by a SEO.
+
+The first work-around is establishing relationship with Yahoo via SiteMatch or SiteXchange. This enters the realm of paid-inclusion but guarantees either consistent spidering by Slurp or a constant XML feed to Yahoo for much larger sites, as opposed to reliance on more random spidering by Slurp. Rates are negotiated directly with an Overture sales rep or via an SEO/SEM firm. For smaller online stores, the greatest benefit of SiteMatch for is consistent spidering which practically ensures both you and Yahoo that any changes to your merchandise or website will be read and recorded fairly quickly. For the big shopping sites, SiteXchange, allows you to establish a direct XML feed straight to Yahoo which saves them the time and bandwidth of constantly updating huge sites while offering large online sellers the security of constant updating of their site at Yahoo. (Please note, at $5000 per month and up, SiteXchange is an option only for the largest stores, or ones with a $60,000 year + online advertising budget). While Yahoo offers paid-inclusion for online merchants, the promise of rapid and consistent spidering does not guarantee Top10 placements in the SERPs, it only guarantees that Yahoo’s spider Slurp will visit the site more often or that you have a direct pipe to Yahoo. For strong placements, hiring an SEO firm, or doing the work yourself is important.
+
+Most online retailers don’t have that kind of money to spend on search engine marketing but a lack of online advertising dollars does not diminish the need for strong search listings. There is a less expensive work-around relying on the use of static pages for specific products or specific product groups. This is an old-fashion method that is not entirely desirable as it involves a lot of labour from your IT staff or your SEO staff and creates a number of quasi-duplicate pages however it is the method that has stood the test of time. Basically, a static page with lots of description should be created for each product or similar groups of products in the shopping cart. No spider ever balks when asked to spider through a series of static HTML pages. A direct link to the shopping cart listing can be included on the static product page to allow one-click navigation for customers. Sitemaps also work best when links lead to static pages and a coherent SEO plan is easier to devise when dealing with static pages than it is with highly dynamic content.
+
+The third work-around for this issue costs less money than the first and offers many of the SEO benefits of the second. There are a few shopping carts out there that have been designed specifically with search engine spiders in mind. The one we have worked with most was developed by Oklahoma based Internet pioneer, Lee Roberts. When developing ApplePie Shopping Cart, Roberts, better known as the host of the syndicated WebDoctor radio show, focused on two major issues. First of all, he wanted to create a tool that practically anyone could use. Next, he wanted to creating a shopping cart that would provide information to search engine spiders in the way spiders best like to read site information. After years of development, Roberts released a successful version of the cart. According to Roberts, â€œApple Pie Shopping Cart provides an easily optimizable page even for business owners who do not know how to work with HTML. All you need to do is simply fill-in-the-blanks and the Apple Pie builds the your site for you. We’ve had business owners finding Google indexed over 1000 pages of their e-commerce site within the first 30 days … and many of those pages receiving top positions in Google’s results.â€
+
+This holiday season, the e-commerce sector is expected to drive upwards of 15% of product purchases. With almost every major retailer and most smaller merchants getting involved, online commerce continues to expand, exponentially, as will the demand for shopping cart SEO. There is a long way to go and new versions of shopping carts to come out. As it stands today, most pages produced by shopping carts are simply not going to achieve a strong ranking in search engine listings without applying a work-around of some sort. While the costs may vary, the goals are always the same, getting the placements and making the sales.
+
+Jim Hedger is a senior editor for ISEDB.com. Also he is a writer, speaker and search engine marketing expert based in Victoria BC. Jim works with a limited group of clients and provides consultancy services. He has worked as an SEO for over 5 years and welcomes the opportunity to share his experience through interviews, articles and speaking engagements. Hedger can be reached at jim.hedger@gmail.com

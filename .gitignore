@@ -1,0 +1,33 @@
+# Databases — too large for git (rebuild with setup.sh)
+*.db
+*.db-wal
+*.db-shm
+
+# Logs
+logs/
+*.log
+
+# Credentials — never commit
+*.json.key
+service_account*.json
+credentials*.json
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Ingest raw data — large, rebuilt by scrapers
+squad_memory/ingest/raw/
+squad_memory/ingest/phase*/
+squad_memory/status/
+
+# Portable snapshot — rebuilt by sync
+portable-repos/

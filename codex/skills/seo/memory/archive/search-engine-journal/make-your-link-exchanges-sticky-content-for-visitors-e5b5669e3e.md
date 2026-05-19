@@ -1,0 +1,45 @@
+---
+source: https://www.searchenginejournal.com/make-your-link-exchanges-sticky-content-for-visitors/1189/
+title: Make Your Link Exchanges Sticky Content for Visitors
+scraped: 2026-03-23
+published_on: 2004-12-28
+tags: live_feed, phase1_ingest, search-engine-journal, searchenginejournal, publication, industry-news, archive_backfill, historical_source
+topic: industry_news
+intent: monitoring, research, source_selection
+role: researcher, seo, pinchy, current
+confidence: medium
+canonical: false
+canonical_group: Archive backfill - Search Engine Journal
+use_for: historical_patterns, archive_research, source_examples
+avoid_for: final_strategy_without_canonical_review
+---
+
+# Make Your Link Exchanges Sticky Content for Visitors
+
+Source: Search Engine Journal
+Homepage: https://www.searchenginejournal.com/
+Original URL: https://www.searchenginejournal.com/make-your-link-exchanges-sticky-content-for-visitors/1189/
+Published: 2004-12-28
+Strength: broad SEO coverage, platform updates, practitioner commentary
+
+## Summary
+Make Your Link Exchanges Sticky Content for Visitors There are a lot of webmasters who spend a substantial amount of time "working" their link exchange
+
+## Extracted Body
+There are a lot of webmasters who spend a substantial amount of time “working” their link exchange program. But very few who realize that a good link exchange program can not only increase your back links and your search engine visibility, it can also be used as a feature to attract and retain visitors. (And the visitors I am talking about are NOT just other webmasters who are looking to exchange links!)
+
+It may take a little more work than you are currently investing in the links you put up on your site, but its well worth it. We have just begun creating a very dynamic link exchange program for Security Resources Inc., and within just a few weeks, not only has the entire links directory been spidered by Google, Yahoo, MSN and others, it is averaging 20 visitors a day. And over half of those visitors actually click through to the Security Resources online store.
+
+I can almost hear you thinking, “20 visitors? Thats ALL? Big deal!” Ah but it is a big deal when you consider that the Security Resources Links Directory contains fewer than 100 links, (so far), and that 99% of these visitors are drawn to the site BECAUSE of the link directory, and that 95% of them are NOT other webmasters just looking for a place to exchange links. Add to that a whopping 26% of the visitors have added the Links Directory as a bookmarked favorite! If our results of a similar link exchange directory at Webs 4 Christ are an indicator, it would be safe to predict that the Security Resources Directory will be averaging well over 100 visitors a day within the next 30-60 days. How many of those will turn into buying customers? Perhaps only 1 percent – but that alone would be 30 additional sales per month!
+
+What’s the secret? There are three of them – target your links directory to your marketplace, organize your links directory and publicize it as you would your main website.
+
+First, target your links directory. It shouldn’t be a free-for-all directory. There are plenty of those. In the case of Security Resources, their directory only contains categories and links to sites related to security. As the link directory grows, it will eventually become a very comprehensive directory of great value to anyone who is interested in security resources, websites, publications, etc.
+
+Second, organizing your links based on categories not only helps each outgoing link have more value, (because of less links per page), but it becomes a value add for visitors who are looking for links and information on your targeted topic because they can find what they are looking for. Take the time to alphabetize your links, and if you find yourself with over 100 links in a certain category, split the category.
+
+Third, publicize your links directory. Have it as a sub-domain of your main site, or even have its own domain name. Submit it to as many web directories and search engines as you do for your main website.
+
+Dramatic results? No, not hardly, but content is king and if you make your links directory into a valuable component of your website, with ever changing content, you will have a better chance of return visitors.
+
+Guest Columnist Toby Wolf was one of the online pioneers, beginning consulting in 1990 & has done work for companies like Dell, AOL, SBC & Amoco. Toby is the founder of AlphaOne Technology , & has designed, managed, or provided search engine optimization for over 200 web sites since 1997.

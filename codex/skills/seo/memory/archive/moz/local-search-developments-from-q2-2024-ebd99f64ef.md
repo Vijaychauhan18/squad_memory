@@ -1,0 +1,115 @@
+---
+source: https://moz.com/blog/local-search-developments-q2-2024
+title: Local Search Developments From Q2 2024
+scraped: 2026-03-23
+published_on: 2024-06-26
+tags: live_feed, phase1_ingest, moz, publication, seo-education, whiteboard-friday, archive_backfill, historical_source
+topic: seo_education
+intent: research, monitoring, source_selection, education
+role: researcher, seo, pinchy, current
+confidence: medium
+canonical: false
+canonical_group: Archive backfill - Moz Blog
+use_for: historical_patterns, archive_research, source_examples
+avoid_for: final_strategy_without_canonical_review
+---
+
+# Local Search Developments From Q2 2024
+
+Source: Moz Blog
+Homepage: https://moz.com/blog
+Original URL: https://moz.com/blog/local-search-developments-q2-2024
+Published: 2024-06-26
+Strength: SEO education, beginner-to-advanced resources, brand/entity SEO, whiteboard-style explainers
+
+## Summary
+The second quarter of 2024 has been… interesting! The larger SEO world has been rocked by algo updates, AI Overviews, and a large Google leak, all of which have impacted local in some way. Learn about the top local search developments of this quarter.
+
+## Extracted Body
+Let’s just say the second quarter of 2024 has been… interesting! The larger SEO world has been rocked by algorithm updates, AI overviews not fit for human consumption , and a large Google leak with some possible local implications . In our own comfort zone, developments have also been pretty fast and furious, so let’s jump right into this roundup.
+
+In late May, Sohan Jain and others began receiving notifications that both Google Business Profile Chat and Google Business Messaging are being sunsetted in July. For local business owners and marketers who made the effort to increase the interactivity of their listings via these features, it’s not welcome news. But it may not be as disappointing as it seems at first glance.
+
+Presumably, the rate of adoption didn’t live up to Google’s hopes, and European users are now reporting sightings of what should actually be a much more intuitive alternative:
+
+Francastrokw was the first account I saw reporting new fields supporting adding SMS functionality or WhatsApp (which is huge in Europe) to your GBPs. I’ve received confirmation that this is popping up in Spain, France, and the UK so far, and let’s hope it makes it to North America, as well. I think it’s a good thing when business owners have maximum control over their communications channel, and I am glad to see testing these options for what may be an easier fit for more local brands.
+
+Meanwhile, Matt McGee simultaneously shared that GBP Call History is also being shut down, with no offer of a replacement product, as yet. The feature has had some buggy history, but many local SEOs prized it in the past for its attribution assistance, and we should stay tuned to see if Google rolls out something better.
+
+The fellows at Near Media spotted a significant change for Local Service Ads (LSAs) going forward. In July, highly problematic LSA reviews will switch over to Google Business Profile reviews for UK-based businesses. As the tweet points out, both sets have serious review spam problems, but because the GBP process is a bit better, this should be an improvement. You can learn more about this from this Near Media video discussion , and we’ll see if Google scales this globally.
+
+Back in March, Garrett Sussman spotted this test of AI-based review summary. However, he can no longer replicate this, and apparently, I’m not alone in noticing the absence of localized AI content in Google’s SERPs. Last July, I reported that 90% of my local queries in the SGE lab environment were returning AI-driven results like this :
+
+But I have yet to see a single analog to this display since the May rollout of AI overviews. I expect something will appear at some point, but for now, local feels more like “business as usual” compared to organic in the AI storyline.
+
+Joy Hawkins shared this screenshot of a nice new layout for reporting and replying to Google Business Profile reviews. You’ll see it when you’re logged into an account you manage.
+
+Behavior originally reported by Steve White in Ireland and that I replicated in the US and took a clearer screenshot of is that clicking on this arrow on a Google Business Profile takes you to the next-up listing in the local pack. It’s a type of scrolling behavior that I’m curious to hear if others are widely seeing. I wouldn’t intuitively guess that this arrow would take me to a different business. I might think it would lead me to further information about the business I’m looking at. Local business owners are famously not fans of features on their listings that highlight competitors, and that’s certainly understandable but a necessary reminder that all listings belong to Google.
+
+In Q1, I reported on the significant changes happening in European economic area local search results, likely tied to the Digital Markets Act . In April, Greg Sterling tweeted that David Mihm had caught a test of the above EU-style carousel appearing in US-based Google results. This is an area of search I feel is being underreported: will Americans benefit from the work European countries are putting into legislating on privacy and antitrust?
+
+I’ll digress here for a minute because the DMA scenario brings to my mind the desperate struggle that’s been going on in my own country for years to compel food producers to label genetically modified ingredients in their food. The common wisdom was that if a state like Vermont could legislate for such labeling to be a legal requirement, then a producer like Kellogg’s would have to state on all their Corn Flakes boxes that their cereal is made of genetically modified corn instead of real corn. They wouldn’t want to go to the expense of creating special boxes just for one state. In 2014, Vermont managed to make this the law , and within two years of that happening, Kellogg’s began to label some of its products nationwide — not at a state level.
+
+Of course, the web isn’t a physical product, and Google can push one version of its interface to the US, another to the UK, and another to Australia. But I find myself asking about how international brands and their multinational staff feel about experiencing less monopoly in Europe than they might in the US or less privacy here than there. It all feels rather unequal. Maybe someday, there will be global agreements. At any rate, my advice to North American local SEOs is to keep tuned into search legislation across the pond.
+
+If you thought QR codes were kind of old hat, you might be surprised to hear that Justin Moseback and others are spotting them in the wild. I initially assumed the code would take you to a website, but the intended functionality is actually as Justin explains to me here:
+
+There’s been quite a bit of chatter about QR codes in the local sphere over the years, including how to generate one for your listing , and plenty of commentary as to whether or not they are alive or dead , but I’d like to see a large and accurate study to better understand how popular these features really are in 2024.
+
+Eagle-eyed Ben Fisher noted a nice new accessibility icon on some maps listings. These are presumably tied to the attributes of the business, but at least one person in Ben’s thread noted that the ability to control the accessibility fields seems to have gone away. I haven’t had time to explore what may have happened to that, but it would be good if it were functional, especially if relevant businesses were rewarded with brand-new icons.
+
+It’s amazing, if you stop to think of it, how used we’ve all become to intuiting a ton of information from basic symbology. A happy face, a star, a share button… we interpret these things every time we step onto the web, and it’s intriguing to consider all the ways in which the symbols on a local business listing convey information to the public with just a few pixels of screen space.
+
+Barry Schwartz noticed a Google Business Profile specifying the name of the owner of a software company. We’re all used to seeing non-local Knowledge Panels listing such data, like the name of a big brand CEO, but this attribute, sourced from Fast Company rather than from any field in the New Merchant Experience, is new to me.
+
+Kudos to Amy Toman for noting that Google is doing something to assist with the agony that is GBP video verification. It’s a process that would test the patience of a saint, and you may find these new video tutorials to be truly helpful . It’s to Google’s credit that they are doubtless employing this more rigorous verification program to limit spam listings, but coordinating the steps remains tricky
+
+Another tip of the hat to Joy Hawkins for early reporting of AI Overviews appearing on Google Business Profiles as we close out the quarter, in the spot historically occupied by editorial summaries. This will doubtless become a sore point with local businesses, as even the first thread I’ve seen on this rollout contains sentiment like this from Matt Day :
+
+Consider this your weekly reminder that while your Google Business Profile is meant to represent your business, it is owned by Google rather than by you, and they are free to put whatever they like on it. Grievances regarding this approach are often very logical, and seeing AI on real-world business listings is certainly a cause for concern. It’s a concern that comes on the heels of Google’s strange approach to the fact that they’ve always offered a business description field that the owner can fill out as the obvious expert on what their business does, but that Google’s handling of that field has varied over the years from being prominently featured, to actually invisible, to pushed to the bottom of many listings.
+
+In the meantime, they developed highly visible editorial summaries, the origins and control of which lack transparency. Companies would not infrequently find these to be unrepresentative of core aspects of their business and then jump through hoops attempting to get them edited. Now, with AI Overviews, real-world business listings could potentially instruct potential customers to eat glue and drink bodily fluids . As with pretty much all of these Google AI features, the public hasn’t asked for them, and they don’t represent a meaningful improvement over authoritative first-party information. That being said, all local business owners should be bracing to see lots of tests like these in the coming months as major online platforms continue their self-imposed experimentation with this problematic technology.
+
+I try not to get too excited when folks spot a pack with more than three listings in it because I’ve never really gotten over Google getting rid of the one highly useful 10-pack. Joy Hawkins caught sight of some 5-packs in early June , and I wish they would stay, but Google is always testing this display. What I liked best was ten listings with full information on them, including phone numbers and website links. I don’t think any subsequent pack iteration has been as satisfactory for the user.
+
+Meanwhile, Mike Blumenthal spotted a puzzling new feature he’s suggesting be called a Quad Pack:
+
+While this layout resembles a product grid, it’s a list of 4 additional businesses below the local pack. Have you seen it? Maybe let Mike know on Twitter.
+
+If a 5-pack is an improvement on a 3-pack, what about almost 100% of the SERPs being localized for a near-me query? Check out full documentation of this wild mobile results test spotted by Near Media . What if Google actually flipped this switch? I wonder how it might impact local business economics.
+
+In April, the team at Sterling Sky shared this dastardly example of a spammer moving a company’s map pin away from its location over to a cluster of same-industry businesses. As readers of this column know, listings can get filtered out if they share a close locality and category with similar businesses, making this spam technique especially odious. I wish I could report that this was a one-off instance, but Joy Hawkins has continued to cover this tactic:
+
+In the above tweet, we can see that simply moving your pin back to the correct location may result in suspension of your listing, and we owe this tip for a different plan of action to Tim Capper :
+
+So, if someone moves your map pin, don’t try to move it back. Get a family member, friend, or other account unrelated to your business to suggest an edit on the listing. Beyond this, I agree with Joy… Google needs to fix the unacceptable collateral damage caused by its open-source approach to real-world local business data. To see more on this damaging spam tactic, watch this video short from Darren Shaw .
+
+Sincere thanks to Elizabeth Rule for sharing this email from Apple Business Connect support explaining that they closed out a listing because it lacked an address and hours of operation. Many local SEOs are rooting for Apple to give Google a run for its local money, but my impression is that lots of business owners don’t even realize this alternate localverse exists. Might I suggest that if you’ve been putting off creating a really complete Apple Maps listing, you check out Moz Local for a quick and painless solution to getting listed with full details so you don’t risk closure?
+
+Head over to The Verge for complete details on this large change Google is making. Historically, Google has stored your private location data in the cloud, but at the end of this year, they’ll start storing it on your own device instead. The article delves into some features users will lose as a result, like Timeline, with tips for workarounds, and we should all recollect that this change is happening in December to see what impacts, if any, it has on searcher experience and behavior.
+
+At the outset of today’s column, I referenced the Google leak in passing. If you’d like to hear more commentary on it from a local SEO perspective, here are two excellent conversations to tune into:
+
+From Sterling Sky — Google's Algorithm Leak Exposed: Live Insights from Rand Fishkin & Mike King
+
+From Near Media — Rand Fishkin interview: The importance of the Google Search Leak
+
+I find it interesting to reflect that the leak was met with so much speculation, even to the point of conspiracy theories that the leak was intentionally released to distract from the ongoing AI debacle. I personally feel conflicted about such occurrences.
+
+On the one hand, I have a sincere respect for privacy and genuinely feel empathy for the engineer whose mistake let this go public. I can readily imagine how dreadful I’d feel if this was my fault, but these days, I’m celebrating the reality of human error, and I hope Google was forgiving about this accident.
+
+On the other hand, I have a decades-long history of sympathy with local brands who feel like their operations exist at the pleasure of Google, with all its sway over their reputations and revenues.
+
+The reaction to the leak is a worthy subject for socioeconomic study, revealing how desperate many of us feel to better understand this often-shadowy entity that shapes so much of both our personal and business lives. A more transparent web would be welcome.
+
+And that’s a wrap for Q2 in local search! Please join me again in September for our fall edition of this series!
+
+The author's views are entirely their own (excluding the unlikely event of hypnosis) and may not always reflect the views of Moz.
+
+Miriam Ellis is the Local SEO Subject Matter Expert at Moz and has been cited among the top five most prolific women writers in the SEO industry. She is a consultant, columnist, local business advocate, and an award-winning fine artist.
+
+Lost rankings or calls from your Google Business Profile? Learn a step-by-step process to confirm a drop, find the real cause, and recover your local rankings fast.
+
+Struggling to manage dozens of Google Business Profiles? This guide provides everything you need to know to start using business groups, avoiding common pitfalls, and setting up an efficient system for multi-location businesses.
+
+Struggling with SEO in volatile SERPs? Discover the 6-step strategy that boosted search visibility by 375% with a proven, repeatable process grounded in results.

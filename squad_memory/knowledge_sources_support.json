@@ -1,0 +1,55 @@
+{
+  "name": "Phase 23 Support Source Monitor",
+  "description": "Trusted customer support, help-center, and support-operations publications for Anemone external-source ingestion and canon fusion.",
+  "sources": [
+    {
+      "slug": "helpscout",
+      "name": "Help Scout",
+      "domain": "support",
+      "homepage": "https://www.helpscout.com/blog/",
+      "kind": "publication",
+      "strength": "support systems, help-center strategy, customer communication, support team operations",
+      "topic": "support_operations",
+      "confidence": "high",
+      "roles": ["support-anemone", "pinchy", "writer", "operations"],
+      "intent": ["research", "monitoring", "support_examples", "documentation_patterns"],
+      "tags": ["helpscout", "support", "docs"],
+      "feed_urls": [
+        "https://www.helpscout.com/blog/rss.xml",
+        "https://www.helpscout.com/blog/feed/"
+      ]
+    },
+    {
+      "slug": "intercom",
+      "name": "Intercom Blog",
+      "domain": "support",
+      "homepage": "https://www.intercom.com/blog/",
+      "kind": "publication",
+      "strength": "customer support operations, AI support workflows, support team process design",
+      "topic": "support_operations",
+      "confidence": "high",
+      "roles": ["support-anemone", "pinchy", "operations", "support"],
+      "intent": ["research", "monitoring", "support_examples", "escalation_patterns"],
+      "tags": ["intercom", "support", "customer_ops"],
+      "feed_urls": [
+        "https://www.intercom.com/blog/feed"
+      ]
+    },
+    {
+      "slug": "zendesk",
+      "name": "Zendesk Blog",
+      "domain": "support",
+      "homepage": "https://www.zendesk.com/blog/",
+      "kind": "publication",
+      "strength": "customer service systems, ticketing workflows, support leadership, help-center patterns",
+      "topic": "customer_service_systems",
+      "confidence": "high",
+      "roles": ["support-anemone", "pinchy", "operations", "writer"],
+      "intent": ["research", "monitoring", "support_examples", "help_center_patterns"],
+      "tags": ["zendesk", "support", "customer_service"],
+      "feed_urls": [
+        "https://www.zendesk.com/blog/feed/"
+      ]
+    }
+  ]
+}

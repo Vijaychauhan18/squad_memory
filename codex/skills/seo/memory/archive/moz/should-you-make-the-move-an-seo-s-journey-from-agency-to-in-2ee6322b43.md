@@ -1,0 +1,105 @@
+---
+source: https://moz.com/blog/seo-agency-to-in-house
+title: Should You Make the Move? An SEO’s Journey from Agency to In
+scraped: 2026-03-23
+published_on: 2022-03-22
+tags: live_feed, phase1_ingest, moz, publication, seo-education, whiteboard-friday, archive_backfill, historical_source
+topic: seo_education
+intent: research, monitoring, source_selection, education
+role: researcher, seo, pinchy, current
+confidence: medium
+canonical: false
+canonical_group: Archive backfill - Moz Blog
+use_for: historical_patterns, archive_research, source_examples
+avoid_for: final_strategy_without_canonical_review
+---
+
+# Should You Make the Move? An SEO’s Journey from Agency to In
+
+Source: Moz Blog
+Homepage: https://moz.com/blog
+Original URL: https://moz.com/blog/seo-agency-to-in-house
+Published: 2022-03-22
+Strength: SEO education, beginner-to-advanced resources, brand/entity SEO, whiteboard-style explainers
+
+## Summary
+If you’re an SEO considering a transition from agency work to joining an in-house team, or vice versa, Angela’s insights and advice from her recent career shift will provide helpful comparisons for your own pro-con list.
+
+## Extracted Body
+I’ve heard over and over from fellow SEOs that they just “fell into” the industry and didn’t know much about it beforehand. Well, I am no exception. I searched far and wide for a marketing job prior to graduating college in 2018, but it was my sister who introduced me to the concept of SEO. She suggested I apply to the agency she worked at, so I quickly started Googling to learn more about the concept. After my brief research and a few interviews, I found myself at a large digital marketing agency.
+
+I loved working at the agency with its fast-paced work day and continuous opportunities to learn, but after nearly three years of working with clients, managing roadmaps, and compiling deliverables, I was ready for a change. I know many people who left agencies to work in-house, and I wanted to know what the other side looked like.
+
+Now, as I write this piece, I find myself at a high-growth media holding company, still driving SEO strategy, but with all of my focus on a single brand. With the Great Resignation still in full force, I wanted to step up and share some of my learnings from my transition from agency to internal SEO. Hopefully, if you’re considering a career shake-up, this will help you in your journey.
+
+While my day-to-day looks pretty different in my in-house role, some things never change. Below is a snapshot of the biggest similarities between the roles — at least from my experience.
+
+Surprise, surprise! You still need the same SEO knowledge in-house and at an agency. From evaluating a robots.txt file to optimizing on-page content to recommending site speed improvements to boost Core Web Vitals, the SEO skills I need have remained the same.
+
+Keep in mind that this may not be true for everyone, depending on the nature of your company and your daily responsibilities. For example, if you work at an agency that primarily focuses on local SEO, you may see a very different day-to-day if you were to transition to an in-house role at a large corporation. However, if you’ve taken the time to build up your content, technical, local, and international SEO skills , then you can take that knowledge and apply it in any SEO position. Being well-rounded serves you well during a career transition.
+
+At the agency, we had access to an array of platforms, so I really had the opportunity to pick my go-to lineup and learn those tools inside and out.
+
+For example, we had access to at least five different keyword research tools, three different site crawlers, and multiple analytics platforms. Although there were some situations when I had no option as to what platform to use (like when working with a client’s analytics), I typically got my pick of the SEO tools.
+
+While I’ve found that the number of tools I have access to is smaller in-house, they’re all familiar favorites. I’ve lucked out in that my favorite keyword research and crawling tools are still the norm in my day-to-day, but keep in mind that, if you are transitioning, you may have to familiarize yourself with new interfaces based on your company’s subscriptions.
+
+Even if your company uses slightly different tools, they all serve generally the same purposes, like keyword research, rank tracking, crawling, and analytics. At the end of the day, even if an internal company has absolutely no paid tools, you can always rely on good ole Google Search Console to come through.
+
+If you happen to be the first SEO hire and get your selection of which tools to use, I’d recommend checking out Moz, SEMRush, and Screaming Frog as a great starting point.
+
+At the agency, I learned the valuable skill of taking SEO information and synthesizing it down for non-SEOs to understand – i.e. the “why” and the “how” behind your analyses and recommendations. For example, your point of contact may be a product marketing manager who doesn’t know the importance of creating top of funnel content because, in their eyes, users convert (aka bring in revenue) from bottom of funnel content. They may think to themselves, “Why would you ever want to create content that does not directly lead to a conversion?” While you may be thinking, “Why wouldn’t they want to grow their topical authority with top of funnel information that builds trust with users and search engines alike?” That’s when the value of providing the “why” behind your recommendations is so, so important.
+
+Even though I’m no longer working with clients day in and day out, I’m constantly communicating with other stakeholders who aren’t as familiar with SEO as I am, and may not understand why top of funnel content, for example, is such a priority. Being able to synthesize data, explain its importance, and show how it fits into the larger picture is a skill that is just as necessary internally as it is at an agency.
+
+The differences were some of the most surprising and exciting opportunities to learn during my transition. Every role and company is going to present their own learning curves, but below were some of the largest differences I noticed in my experience.
+
+While I worked with other SEOs frequently at the agency, I didn’t spend much time collaborating with other departments. I had an understanding of other channels, like SEM and display, but oftentimes I didn’t get the chance to work together on a holistic strategy.
+
+Additionally, I usually communicated directly with my points of contact (with the occasional dev team on the line to discuss the most technical implementations), so I rarely had the chance to discuss things like content creation directly with editorial teams or content promotion with social teams.
+
+Now, working in my internal role at a high-growth company, I work with these other teams daily. Not only with other marketing channels, like email, but also with editorial, video, social, and design teams, resulting in more opportunities to have our content do double (and even triple!) duty.
+
+So, what do these differences look like in action? Let’s say I want to get a blog page created because I identified a strong keyword opportunity that fit into the pillar of content the team was already working to build out. At the agency, I would recommend creating a blog page to rank in organic search, and promoting it on owned channels. However, because I didn’t work directly with those teams, I rarely saw the content promoted across other channels, meaning its potential was limited.
+
+In my internal role, I’ll recommend creating a piece of content for SEO purposes that’s also a strong video opportunity, and communicate this to the video team. That video can be added to YouTube, embedded on the web page, and be spliced up and added to TikTok and Instagram Reels. Additionally, I can include a link to the final blog page in the upcoming email newsletter to reach an even wider audience. Essentially, because I’m in-house with these other teams and in constant communication with them, it’s easier to get the most value from our content that we possibly can via collaboration.
+
+One of the most surprising differences I noticed when I moved from my agency role was a greater need to prioritize projects as a result of having fewer hard deadlines. At the agency, I had weekly meetings with my clients to discuss deliverables, issues, and performance, meaning I always knew when I needed to get my work done by: before that meeting.
+
+However, in my position internally, I set my own pace. Yes, occasionally I’ll have deadlines to meet for other stakeholders, but I’m primarily setting and meeting my own goals. As someone who’s organized but has a lot of areas that pique my interest, I had to really sharpen my prioritization skills. This new freedom, which is by far my favorite thing about being in an internal role, means that I have to work harder to focus on balancing the effort and impact of projects in my day-to-day work.
+
+As I mentioned above, my favorite part of working internally is the freedom I have in my role. This may partially be due to the nature of my new company, but I now have the opportunity to learn more about how other departments function and dip my toes into SEO-adjacent projects.
+
+For example, rather than spending most of my time knee deep in audits, SOPs, and deliverables, I get to spend more time thinking about how to better engage the users that we get from organic search via UX improvements. I get to ideate with our Customer Experience team to plan A/B tests, plan out qualitative user tests, and experiment with new content formats. I get to go directly into the CMS to add FAQs (and don’t forget the corresponding Schema!) to help rank for long-tailed keywords. And I get to learn new platforms, like AWeber for email, because we didn’t already have a dedicated team upon my joining.
+
+I absolutely love how much flexibility I have, and I was surprised by how many areas of the site I could touch when I was the one directly responsible for its success.
+
+Some people may have gotten to this point in the article and are wondering “But is agency or in-house better?” And my answer, in classic SEO fashion, is: “It depends.”
+
+Both roles have their unique opportunities, and one is going to be more likely to help you build certain skills than the other. Below is a summary of what I’ve learned from each position that will hopefully help you get a better idea of what to expect and how to prepare.
+
+Agencies are great to build an SEO foundation as they’re more likely to have an established training program to help you build up your skills. If you’re just starting in the industry, this could be a great option to fast-track your abilities.
+
+Agencies help you develop incredible communication and presentation skills as you work with clients regularly, and those skills are highly transferable to an internal role. My suggestion is to take every opportunity you can to present, since that experience is valuable anywhere.
+
+Working in-house can be more flexible, which creates a greater need to prioritize tasks and stay focused. Effort vs. impact analyses and writing out my daily priorities to share with my team have helped me stay accountable and on track.
+
+There’s more frequent reporting internally as leadership wants to have a pulse on business performance. We focused primarily on monthly reporting at my agency, and we provide weekly reporting at my current job. When doing these types of reports, keep in mind who is seeing the data to determine how in-depth or high-level you should be.
+
+While I generally use the same skills in each role, I’ve found that some skills are more important to have in certain positions. Below are my top three soft skills for SEOs considering either agency or in-house work:
+
+Comfort with a looser structure (there are less formal audits and SOPs)
+
+Additionally, below are the top three skills I’d recommend building for success at either type of company:
+
+Ability to effectively communicate SEO information to non-SEOs
+
+As I’ve mentioned, everyone is going to have different experiences, no matter where they are, but hopefully you have a clearer picture of what to expect prior to transitioning from one role to another. Both roles have been valuable in building my SEO career, and I wish you luck in your journey!
+
+The author's views are entirely their own (excluding the unlikely event of hypnosis) and may not always reflect the views of Moz.
+
+Thinking of pitching for MozCon New York 2026? Learn how to create a standout speaker pitch, discover hot topics organizers love, and boost your chances of taking the stage.
+
+When you're set up for success, being a mentor can be a rewarding experience for you and your mentee. Miracle’s in-depth framework presented in this week’s Whiteboard Friday covers considerations like building trust, setting boundaries, and the qualities that make a great mentor.
+
+Wondering how the latest news around the Google Antitrust ruling will impact search and SEO? Dr. Pete breaks down the final Google antitrust remedies as determined by the court and how this landmark ruling will reshape search and SEO over the next five years.

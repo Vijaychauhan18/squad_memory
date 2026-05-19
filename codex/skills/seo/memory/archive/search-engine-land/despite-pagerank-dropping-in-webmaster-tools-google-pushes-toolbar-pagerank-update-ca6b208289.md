@@ -1,0 +1,49 @@
+---
+source: https://searchengineland.com/despite-pagerank-dropping-in-webmaster-tools-google-pushes-toolbar-pagerank-update-28854
+title: Despite PageRank Dropping In Webmaster Tools, Google Pushes Toolbar PageRank Update
+scraped: 2026-03-23
+published_on: 2009-10-30
+tags: live_feed, phase1_ingest, search-engine-land, searchengineland, publication, industry-news, archive_backfill, historical_source
+topic: industry_news
+intent: monitoring, news, source_selection
+role: researcher, seo, pinchy, current
+confidence: medium
+canonical: false
+canonical_group: Archive backfill - Search Engine Land
+use_for: historical_patterns, archive_research, source_examples
+avoid_for: final_strategy_without_canonical_review
+---
+
+# Despite PageRank Dropping In Webmaster Tools, Google Pushes Toolbar PageRank Update
+
+Source: Search Engine Land
+Homepage: https://searchengineland.com/
+Original URL: https://searchengineland.com/despite-pagerank-dropping-in-webmaster-tools-google-pushes-toolbar-pagerank-update-28854
+Published: 2009-10-30
+Strength: industry coverage, rollout monitoring, search product and platform changes
+
+## Summary
+Fifteen-days ago, Google dropped PageRank values from Webmaster Tools and the search community took that as a bold statement. The statement was clear, webmasters “shouldn’t focus on PageRank so much,” said Google. Last night, Google pushed out a Google Toolbar PageRank update, despite making that bold statement just a couple weeks ago. As Danny explained […]
+
+## Extracted Body
+Fifteen-days ago, Google dropped PageRank values from Webmaster Tools and the search community took that as a bold statement. The statement was clear, webmasters “shouldn’t focus on PageRank so much,” said Google.
+
+Last night, Google pushed out a Google Toolbar PageRank update , despite making that bold statement just a couple weeks ago. As Danny explained clearly in his What Is Google PageRank? A Guide For Searchers & Webmasters , “Toolbar PageRank — is a snapshot of internal PageRank taken every few months.” Yes, months ago and it is far from current.
+
+Despite all of this, Google has updated the PageRank values in the Google Toolbar sending a mixed message to webmasters and SEOs.
+
+Search Engine Land is owned by Semrush . We remain committed to providing high-quality coverage of marketing topics. Unless otherwise noted, this page’s content was written by either an employee or a paid contractor of Semrush Inc.
+
+Barry Schwartz is a technologist and a Contributing Editor to Search Engine Land and a member of the programming team for SMX events. He owns RustyBrick , a NY based web consulting firm. He also runs Search Engine Roundtable , a popular search blog on very advanced SEM topics.
+
+In 2019, Barry was awarded the Outstanding Community Services Award from Search Engine Land, in 2018 he was awarded the US Search Awards the "US Search Personality Of The Year," you can learn more over here and in 2023 he was listed as a top 50 most influential PPCer by Marketing O'Clock.
+
+Barry can be followed on X here and you can learn more about Barry Schwartz over here or on his personal site .
+
+Free technical audit shows what's blocking your search visibility.
+
+1 Year → 1,000 Links: How Digital PR Builds Authority for SEO and AI Search
+
+Blueprint for excellence: How leading agencies drive growth, prove value, and scale smarter
+
+Third Door Media operates business-to-business media properties and produces events, including SMX. It is the publisher of Search Engine Land, the leading digital publication covering the latest search engine optimization (SEO) and pay-per-click (PPC) marketing news, trends and advice. The company headquarters is 800 Boylston Street, Suite 2475, Boston, MA USA 02199.

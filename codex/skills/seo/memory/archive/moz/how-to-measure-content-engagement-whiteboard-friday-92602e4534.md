@@ -1,0 +1,67 @@
+---
+source: https://moz.com/blog/how-to-measure-content-engagement-whiteboard-friday
+title: How to Measure Content Engagement — Whiteboard Friday
+scraped: 2026-03-23
+published_on: 2022-09-02
+tags: live_feed, phase1_ingest, moz, publication, seo-education, whiteboard-friday, archive_backfill, historical_source
+topic: seo_education
+intent: research, monitoring, source_selection, education
+role: researcher, seo, pinchy, current
+confidence: medium
+canonical: false
+canonical_group: Archive backfill - Moz Blog
+use_for: historical_patterns, archive_research, source_examples
+avoid_for: final_strategy_without_canonical_review
+---
+
+# How to Measure Content Engagement — Whiteboard Friday
+
+Source: Moz Blog
+Homepage: https://moz.com/blog
+Original URL: https://moz.com/blog/how-to-measure-content-engagement-whiteboard-friday
+Published: 2022-09-02
+Strength: SEO education, beginner-to-advanced resources, brand/entity SEO, whiteboard-style explainers
+
+## Summary
+When it comes to content engagement, you can (and should) be measuring more than just page views. Building off her MozCon 2022 presentation, Dana shares the four things you should focus on to make sure your metrics are giving you the best picture of your content's quality.
+
+## Extracted Body
+When it comes to content engagement, you can (and should) be measuring more than just page views. In this week's Whiteboard Friday, analytics expert Dana DiTomaso summarizes her MozCon 2022 presentation by sharing the four things you should focus on to make sure your metrics are giving you the best picture of your content's quality.
+
+Click on the whiteboard image above to open a high resolution version in a new tab!
+
+Hey, Moz fans. My name is Dana DiTomaso. I'm President at Kick Point . We're a digital marketing agency up in Canada. And today, I'm going to be talking to you about how to measure content engagement, which is a topic very near and dear to my heart, and it's actually what I talked about at MozCon this year. I'm even wearing the thematic T-shirt. So if you weren't at MozCon or are not going to buy the videos , which you should, they're good, I'm going to give you a quick summary of what I talked about in that talk.
+
+So there are four different things that I think you should be looking at when you're trying to better understand your content engagement. The first thing is that people keep tabs open. And right now you might be looking at your 400 tabs you have open and thinking, "Okay, yeah, I keep tabs open. What's the problem?" The problem is that every time you wake up your laptop from when it's sleeping or you open up that list of tabs in your mobile browser, often an empty page view, what I call an empty page view is sent off to Analytics. It's a zero-second page view because you didn't actually look at the page. It just was checking to make sure the page was still live. But because it activates Analytics, what you end up with is a situation where you have a lot of what I call tab hoarders.
+
+So there is a way to measure how to fix this. There's going to be a link in the transcript to get the actual recipe through Google Tag Manager to measure this. But the idea is that when a tab is activated, there are two different things you can measure. You can measure the action that was used to generate that tab, and you can look at the tab type. So the actions possible are navigating or reloading or the back and forward button, and the tab type could be new or existing. So if it's a reloaded tab in an existing tab type, then that means that person hoarded the tab. Essentially, they've just had it open. And this is just detecting from the browser. You don't need any fancy cookies or anything like this. This is built-in stuff for measuring.
+
+So by looking at the percentage of which your tabs are run by tab hoarders essentially, you can see what percentage of your page views is actually fresh page views, like new people. And also consider that if you have a lot of tab hoarders, it might be making your conversion rate look like crap, because conversion rate in Universal Analytics is session-based. So if every time they come back to that existing tab every single day, like once a day, that's one session every day and they never convert, has a 0% conversion rate for this person, they could look at this page like 30 times before they actually end up converting.
+
+In GA4, you have the option of session conversions or user conversions, so it'll be a little bit better, but you also have to assume that the cookies have remained to identify this person is a user, which is not always the case. So definitely keep in mind that you might want to discount hoarders when you're thinking about your conversion rate for your site.
+
+Second thing, I also want you to look at the page views per day. So consider that when you have a report and you probably have in that report top pages, for example, like, "Look at this page. We published blog post. It's 8,000 views. We would like a raise." Right? We report on this stuff all the time. Everybody does. But what you don't do is you probably don't report on how many page views this page has had since it was originally published.
+
+So I want you to think about that. So you can always capture like the publish date of the page. And then try having a report where you have the page, how many views that page has had since it was published. And then take the page views divided by the number of days that page has been around for and then look at the page views per day. And I've just sketched out an example here. You can see page A, 11,200 views, 18 views per day, page B, 9,000 views, 14 views per day, page C, 18,000 views, but only 12 views per day because this is an older post. And so this one might look really great if you just looked at views. But if you look at views per day, actually this one is pretty great. And then that helps you prioritize, well, this page is this quiet performer over the long haul. Maybe we should be looking at it and making sure that conversion rate is better. And you can also establish a benchmark of how many views per day you would expect for a new post over time. And then, when you publish something, then you can go back and say, "Is this actually, you know, are we happy with the amount of page views per day that this new page or new post that we've published is actually getting?" So a couple of different options there.
+
+All right, third thing, was the content consumed? So this is a recipe that is available on our website. Also the link, again, will be in the transcript to download it. Consuming is the idea that when you go to a site, and you're watching a video, we know you watched the video. We know you clicked on it. We know how long you watched it. If you're reading a piece of content, we don't actually know if you read the whole thing, because content is different lengths, which means that there are different times it would take to read that post. Some posts might be 15 minutes. Some posts might be five minutes. So you can't use a standard timer for all of it. Plus, you need to know if they actually saw the entire post.
+
+So the idea of content consumption is that it is depth and time. If they reach the depth, the bottom of the post, then they saw the whole thing. If the time was the amount that it actually took to read the post, then if both these things are true, the content was consumed. And if they only got to depth but not time, then it would be that they skimmed. So they just roared on down to the bottom and they didn't actually read the whole thing. If they got no depth, but they got time, they're a tab hoarder, which we've already looked at here, but this is another way to tell. And if none of those things happened, then they just abandoned ship and they didn't care about your post. So by evaluating your page views with a percentage of what percentage were skimmers, or hoarders, or abandoners, or actual consumers, that can also tell you how compelling that content is.
+
+And then a bonus metric would be, well, what's the average scroll depth of this page? So at what point are people bailing? If they're not consuming with this post, then you can see like, "Oh, you know what. We've got this really weird call to action. People think the post is done. So if we move things around, maybe people will realize there's more to read." So that's a good way to measure content consumption and how it can improve content on your site.
+
+All right, fourth, last thing. Was a conversion possible? I'm sure everyone reports in conversion rates. What they don't report on is if the person could actually convert, which frankly doesn't seem fair. You're expecting someone to convert, and it's like, "Well, why didn't you do the thing?" They're like, "I didn't even know I could do the thing. I didn't see the button." And I know marketers, we all have these beautiful computers that we use, right? Like I'm a Windows person. I have this big desktop at home that I also use for video gaming, and it's got two giant monitors. And, of course, when I look at a page, I see a big section of a page. But on a mobile device, the same page, you probably aren't necessarily seeing the buttons. And so you really need to think about like, could the person actually convert? And this, I really encourage everyone, like look at your website on a mobile device now and again. I know we all think desktop first, even though we're supposed to think mobile first because we use desktops, but many of our website visitors may only visit your site on a mobile device. So really think about, based on that device, are people even seeing your call to action?
+
+So to measure this it's what's called an element visibility trigger in Google Tag Manager. Again, in the link I have in the transcript, we'll show you how to set this up. It's a very simple trigger. You just need to know a tiny little bit of CSS. You just have to say, "What's the class or the ID of the thing that I want to measure?" So, for example, for some clients, I might say, show me every time an H1 enters the view, or an H2, or something like that, a Heading 1 or a Heading 2. And then I know exactly how many headings this person has seen as they went down the page. And you could do the same thing with buttons. So if you know you have a button and it always has a class of CTA, for example, you would just say, "Record an event every time a button with a class of CTA shows up in this visitor screen." And then you can look at it as more like a funnel. Instead of just a straight, what's the conversion rate for the session, it could be how many people looked at this page, how many people actually saw the CTA, what was that view-to-CTA rate, and then out of those people, how many of them converted? And you may find out that your pages actually convert a lot better than you thought, but people aren't seeing your CTAs. So maybe you should show it to them, or maybe things are fine, but you don't know until you measure it.
+
+So there are four different ways here to measure content engagement. Maybe all of them will apply to you, maybe only some of them do. But either way, you can definitely go beyond page views when it comes to figuring out if your content is any good or not. Thank you.
+
+The author's views are entirely their own (excluding the unlikely event of hypnosis) and may not always reflect the views of Moz.
+
+Dana is a partner at Kick Point, where she applies marketing into strategies to grow clients' businesses, in particular to ensure that digital and traditional play well together. With her deep experience in digital, Dana can separate real solutions from wastes of time (and budget).
+
+How does Google's AI Overview expand user queries? Tom Capper reveals 10 fan-out categories you can use to improve your prompt tracking and keyword research.
+
+In this episode of Whiteboard Friday, Chloe Osunsami provides 3 simple steps for crafting a successful digital PR strategy in 2026. Join her to discover how to analyze competitors, find AI visibility gaps, and secure authoritative brand mentions.
+
+Is your SEO strategy ready for LLM grounding? Explore the distinction between training data and live web retrieval, and discover how to optimize your brand's visibility in AI search results.

@@ -1,0 +1,83 @@
+---
+source: https://moz.com/blog/reading-patterns-whiteboard-friday
+title: Reading Patterns Can Help Us Optimize Content
+scraped: 2026-03-23
+published_on: 2024-03-29
+tags: live_feed, phase1_ingest, moz, publication, seo-education, whiteboard-friday, archive_backfill, historical_source
+topic: seo_education
+intent: research, monitoring, source_selection, education
+role: researcher, seo, pinchy, current
+confidence: medium
+canonical: false
+canonical_group: Archive backfill - Moz Blog
+use_for: historical_patterns, archive_research, source_examples
+avoid_for: final_strategy_without_canonical_review
+---
+
+# Reading Patterns Can Help Us Optimize Content
+
+Source: Moz Blog
+Homepage: https://moz.com/blog
+Original URL: https://moz.com/blog/reading-patterns-whiteboard-friday
+Published: 2024-03-29
+Strength: SEO education, beginner-to-advanced resources, brand/entity SEO, whiteboard-style explainers
+
+## Summary
+In this Whiteboard Friday, learn about how to use reading patterns to optimize your content and understand how users are engaging with it.
+
+## Extracted Body
+In this Whiteboard Friday, learn about how to use reading patterns to optimize your content and understand how users are engaging with it.
+
+Click on the whiteboard image above to open a high-resolution version!
+
+Hi, friends. I'm Chloe Smith, Strategic SEO Lead at Blue Array, and today, I'm going to take you through how you can use reading patterns to optimize your content and understand how users are engaging with it.
+
+Reading patterns is more of a UX concept and content design concept than it is SEO, but I think it's still something really valuable for SEOs to learn and understand, particularly as Google is starting to hammer home the fact that content has to be valuable for your users, anything from looking at how SGE is adapting search to helpful content systems and how that's affecting rankings for particularly editorial content.
+
+So we're going to go through three reading patterns, which is not all of them, but is enough to kind of get a decent understanding and some good momentum with your optimization. Important to note, these are not all of them. In the day of TikTok and short-form video content, the way that people engage in content is so different, but it's still useful to see these kinds of formulaic reading patterns and understand how we can optimize content for them.
+
+So first off, we've got our F Pattern, which until maybe 2017 was kind of the default this is how people are reading and engaging in our content.
+
+So the way that this works is users tend to look at your main headline on a page as well as maybe the first two or three lines of content in detail, and then from there, they're going to skim through everything, just looking for things that maybe catch their attention.
+
+So the best way to optimize for this kind of reading pattern is using your subheadings and images to attract the eye and engage that user activity again as it starts to drop off, particularly if you're looking at an even longer piece of content than your typical kind of thousand-word stuff. What this will mean is you'll see less user drop-off, hopefully, and maybe kind of some improved engagement overall with your content.
+
+Secondly, we've got Layer Cake, which just made me hungry looking at that. But this is where users, it can be positive and negative. Your users are focusing on your subheadings and headings to understand the structure and essentially look for the information that they're after.
+
+They're not interested in any kind of preamble. They're just after facts.
+
+So here, you can structure your content to promote engagement. This is anything from using jump links at the start of your content so that users can understand exactly what information is going to be presented to them, and if your user is time poor or feeling a little lazy, they can just click on that and get to the information they need.
+
+That's probably going to earn a little more respect from your users as well because you're not faffing about. You're producing the content and serving it in a way they're expecting.
+
+You can also then start to use parts of the F Pattern optimizations to feed into this and start to optimize to promote further engagement. Images that are attractive and catch that eye mean that people are more likely to scroll probably and overall just engage with your content a little bit more.
+
+And then, finally, we've got spotted, which sums me up as a user more than any other reading pattern, and this is where your users are just skimming the content, looking for a specific keyword or phrase.
+
+So chocolate cake is the best example, using a chocolate cake recipe where users are literally just looking for a subheading that is, "Here's the recipe." So they're going to scroll through any kind of preamble and look straight for that.
+
+The best way to approach this is by using your keywords in strategic places. So yes, some of that is your headings and subheadings for your Layer Cake and your F Pattern users, but that's also things like anchor text, so using that in a way to promote not just your internal linking structure, which obviously then using keywords in your anchor text is a ranking factor, but also that then encourages your users to spend a longer time on your site and understand just what's happening and what you have to offer.
+
+Anything that kind of catches the eye, it's a big, big thing with this, like anything that will promote engagement and encourage users to scroll, spend a little bit longer just consuming the content you've obviously spent a lot of time creating.
+
+A good way of understanding how your users are engaging in the content to begin with because you could use any of these as a template. It's not necessarily going to reflect your users, though. So, you could use tools like Hotjar, which has a decent heat mapping feature to understand where users are spending the majority of their time.
+
+But also then things like Google Analytics 4, where you can set up an event for when users scroll, that then gives you a good understanding of not only people aren't bouncing once they've read like the first few lines of your content, so those F Pattern users, but also then where are you structuring your content that facilitates that scroll for those Layer Cake users.
+
+What that will do is not just show you the stuff that's really, really good, which is great to take to your boss to show success, but also then the places where you need to do better, which is where then content optimization will come into it. It's never going to be a one-size-fits-all kind of thing.
+
+But the best way to do it is optimize, maybe compare the last month's worth of user engagement data with a month after optimization and compare them. And if the month after is better, amazing. If it's not, it's not a terrible thing because you can just go back and reoptimize. Maybe the way that your users have been consuming content has changed over the past few months. Maybe you've got a competitor that's a lot more focused on short-form video content. So then, you want to start using that and encouraging your social team to get involved in content ideation. It could go on and on and on.
+
+But using stuff like Hotjar and GA4 will be crucial to understanding not just how your users are engaging in your content in a positive way, but also a negative way, and give you all of that opportunity to improve. I think that's pretty much everything I've got.
+
+I really hope that was useful. If you want to carry on this conversation, have a chat with me about content design, I'm on Twitter @chloeivyroseseo, or you can follow me on LinkedIn. I really hope this was helpful. Thanks, everyone. Bye.
+
+The author's views are entirely their own (excluding the unlikely event of hypnosis) and may not always reflect the views of Moz.
+
+Chloe Smith is Strategic SEO Lead at Blue Array, the largest pure-play SEO agency in the UK, and co-founder of the LGBT SEOs community. They've spoken at events and webinars on a wide range of topics from menstrual health in the SEO industry to accessibility to content. In their spare time, Chloe can be found with their head in a book or in a middle of a mosh pit.
+
+How does Google's AI Overview expand user queries? Tom Capper reveals 10 fan-out categories you can use to improve your prompt tracking and keyword research.
+
+In this episode of Whiteboard Friday, Chloe Osunsami provides 3 simple steps for crafting a successful digital PR strategy in 2026. Join her to discover how to analyze competitors, find AI visibility gaps, and secure authoritative brand mentions.
+
+Is your SEO strategy ready for LLM grounding? Explore the distinction between training data and live web retrieval, and discover how to optimize your brand's visibility in AI search results.

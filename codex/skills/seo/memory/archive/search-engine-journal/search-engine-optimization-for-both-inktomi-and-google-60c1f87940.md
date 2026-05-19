@@ -1,0 +1,43 @@
+---
+source: https://www.searchenginejournal.com/search-engine-optimization-for-both-inktomi-and-google/219/
+title: Search Engine Optimization for Both Inktomi and Google
+scraped: 2026-03-22
+published_on: -0001-11-30T00:00:00+00:00
+tags: live_feed, phase1_ingest, search-engine-journal, searchenginejournal, publication, industry-news, archive_backfill, historical_source
+topic: industry_news
+intent: monitoring, research, source_selection
+role: researcher, seo, pinchy, current
+confidence: medium
+canonical: false
+canonical_group: Archive backfill - Search Engine Journal
+use_for: historical_patterns, archive_research, source_examples
+avoid_for: final_strategy_without_canonical_review
+---
+
+# Search Engine Optimization for Both Inktomi and Google
+
+Source: Search Engine Journal
+Homepage: https://www.searchenginejournal.com/
+Original URL: https://www.searchenginejournal.com/search-engine-optimization-for-both-inktomi-and-google/219/
+Published: -0001-11-30T00:00:00+00:00
+Strength: broad SEO coverage, platform updates, practitioner commentary
+
+## Summary
+How to Optimize Your Website for Both Google & Inktomi The search engine environment continues to evolve rapidly, easily outpacing the ability of
+
+## Extracted Body
+The search engine environment continues to evolve rapidly, easily outpacing the ability of consumers and SEO practitioners to quickly adapt to the new landscape. With the ascension of Inktomi to the level of importance that until recently was held solely by Google, SEO practitioners need to rethink several strategies, tactics and, perhaps even the ethics of technique. Assuming this debate will unfold over the coming months, how does an “ethical SEO firm” work to optimize websites for two remarkably unique search engines without falling back on old-fashioned spammy tactics of leader-pages or portal-sites? Recently, another SEO unrelated to StepForth told me that he was starting to re-optimize his websites to meet what he thought were Inktomi’s standards as a way of beating his competition to what looks to be the new main driver. That shouldn’t be necessary if you are careful and follow all the “best practices” developed over the years.
+
+The answer to our puzzle is less than obvious but it lies in the typical behaviors of the two search tools. While there are a number of similarities between the two engines, most notably in behaviors of their spiders, there are also significant differences in the way each engine treats websites. For the most part, Google and Inktomi place the greatest weight on radically different site elements when determining eventual site placement. For Google, strong and relevant link-popularity is still one of the most important factors in achieving strong placements. For Inktomi, titles, meta tags and text are the most important factors in getting good rankings. Both engines consider the number and arrangement of keywords, incoming links, and the anchor text used in links (though Google puts far more weight on anchor text than Inktomi tends to). That seems to be where the similarities end and, the point where SEO tactics need revision. Once Inktomi is adopted as Yahoo’s main listing provider, both Google and Inktomi will drive relativity similar levels of search engine traffic. Each will be as important as the other with the caveat that Inktomi powers two of the big three while Google will only power itself.
+
+The first important factor to think about is how does each spider work?
+
+Getting your site spidered by Inktomi’s bot “Slurp” is essential. Like “Google-bot”, “Slurp” will follow every link it comes across, reading and recording all information. A major difference between Google and Inktomi is that, when Google spiders a new site, there is a good chance of getting placements for an internal page without paying for that specific page to appear in the index. As far as we can tell, that inexpensive rule of thumb does not apply to Inktomi. While it is entirely possible to get entire sites indexed by Inktomi, we have yet to determine if Inktomi will allow all pages within a site to achieve placements without paying for these sites to appear in the search engine returns pages, (SERPs). Remember, Inktomi is a paid-inclusion service which charges webmasters an admission fee based on the number of pages in a site they wish to have spidered. From the information we have gathered, Slurp will follow each link in a site and, if provided a clear path, will spider every page in the site but, pages within that site that are paid-for during the submission will be spidered far more frequently and will appear in the indexes months before non-paid pages. We noted this when examining how many pages Inktomi lists from newer clients versus how many from old clients. We have noticed the older the site, the more pages appear in Inktomi’s database and on SERPs on search engines using the Inktomi database. (This is assuming the webmaster only paid for inclusion of their INDEX page) Based on Inktomi’s pricing, an average sized site of 50 pages could cost up to $1289 per year to have each page added to the paid-inclusion database so it is safer then not to assume that most small-business webmasters won’t want to pay that much.
+
+Google-bot is like the Borg in Star Trek. If you exist on the web and have a link coming to your site from another site in Google’s index, Google-bot will find you and assimilate all your information. As the best known and most prolific spider on the web, Google-bot and its cousin Fresh-bot visit sites extremely frequently. This means that most websites with effective links will get into Google’s database without needing to manually submit the site. As Google currently does not have a paid-inclusion model, every page in a site can be expected to appear somewhere on Google produced SERPs. By providing a way of finding each page in the site (effective internal links), website designers should see their sites appearing in Google’s database within two months of publishing.
+
+OK, that said, how to optimize for both without risking placements at one over the other. The basic answer is to give each of them what they want. For almost a year, much of the SEO industry focused on linking strategies in order to please Google’s PageRank. Such heavy reliance on linking is likely one of the reasons Google re-ordered its algorithm in November. Relevant incoming links are still be extremely important but can no longer be considered the “clincher” strategy for our clients. Getting back to the basics of site optimization and remembering the lessons learned over the past 12- months should produce Top10 placements. SEOs and webmasters should spend a lot of time thinking about titles, tags and text as well as thinking about linking strategies (both internal and external). Keyword arrangement and densities are back on the table and need to be examined by SEOs and their clients as the new backbone of effective site optimization. While the addition of a text-based sitemap has always been considered an SEO Best Practice, it should now be considered an essential practice. The same goes for unique titles and tags on each page of a site. Another essential practice SEOs will have to start harping on is to only work with sites that have unique, original content. I am willing to bet that within 12-months, Inktomi introduces a rule against duplicate content as a means of controlling both the SEO industry and the affiliate marketing industry. Sites with duplicate content are either mirrors, portals or affiliates, none of which should be necessary for the hard-working SEO. While there are exceptional circumstances where duplicate content is needed, more often than not dupe-content is a waste of bandwidth and will impede a SEO campaign more than it would help.
+
+The last tip for this article is, don’t be afraid to pass higher costs on to the clients because if your client wants those placements soon, paid-inclusion of internal pages will be expected. When one really examines the costs of paid inclusion it is not terribly different than other advertising costs, with one major exception. Most paid-advertising is regionally based (or is prohibitively expensive for smaller businesses). Search engine advertising is, by nature, international exposure and that is worth paying for.
+
+Commentary by Jim Hedger. Jim is the SEO Manager of StepForth Search Engine Placement Inc. Based in Victoria, BC, Canada, StepForth is the result of the consolidation of BraveArt Website Management, Promotion Experts, and Phoenix Creative Works, and has provided professional search engine placement and management services since 1997. http://www.stepforth.com Tel – 250-385-1190 Toll Free – 877-385-5526 Fax – 250-385-1198

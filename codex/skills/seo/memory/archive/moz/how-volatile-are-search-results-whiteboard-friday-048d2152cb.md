@@ -1,0 +1,103 @@
+---
+source: https://moz.com/blog/volatile-search-results-whiteboard-friday
+title: How Volatile Are Search Results? — Whiteboard Friday
+scraped: 2026-03-23
+published_on: 2024-02-16
+tags: live_feed, phase1_ingest, moz, publication, seo-education, whiteboard-friday, archive_backfill, historical_source
+topic: seo_education
+intent: research, monitoring, source_selection, education
+role: researcher, seo, pinchy, current
+confidence: medium
+canonical: false
+canonical_group: Archive backfill - Moz Blog
+use_for: historical_patterns, archive_research, source_examples
+avoid_for: final_strategy_without_canonical_review
+---
+
+# How Volatile Are Search Results? — Whiteboard Friday
+
+Source: Moz Blog
+Homepage: https://moz.com/blog
+Original URL: https://moz.com/blog/volatile-search-results-whiteboard-friday
+Published: 2024-02-16
+Strength: SEO education, beginner-to-advanced resources, brand/entity SEO, whiteboard-style explainers
+
+## Summary
+How volatile are organic search rankings day to day? Tom dives into data he captured using STAT to answer this question.
+
+## Extracted Body
+How volatile are organic search rankings day to day? Tom dives into data he captured using STAT to answer this question.
+
+Click on the whiteboard image above to open a high resolution version in a new tab!
+
+Today I want to talk about this question: How volatile are organic rankings?
+
+Now you might instantly think about things like core updates, other big helpful content updates, all these big algorithm updates we've seen in the last year or two when I mention something like that.
+
+But I am actually talking about more day-to-day, routine fluctuation in Google rankings, which I think is a lot more prevalent and a lot larger magnitude basically than most SEOs tend to think.
+
+So this data that I'm going to share with you today, this is actually taken from one of the quietest two-week periods that we've recently had. This is, from memory, I think, from August, but the full data will be linked below:
+
+SERP volatility and the case for daily rank tracking — STAT Search Analytics
+
+Yes, this is from a period where, relatively speaking, not too much was happening in terms of major announced updates, although obviously, that is not saying much. There's not a lot of clear periods in recent times. But that's kind of the point, right?
+
+This is all taken from STAT , our enterprise rank tracking platform, and it's the MozCast corpus tracked in STAT. So MozCast you might have heard of. It's 10,000 head terms. In this case, I'm tracking it in two suburban locations, one in the US, and one in the UK, and on smartphone and desktop. So 40,000 total SERPs per day and, in this case, over a 2-week period.
+
+So this chart, this shows the percentage of SERP positions that had one consistent URL for that entire time. So, for example, in position 1, so at the top of the SERP, about 70%, I think actually 69% of position 1 results had 1 URL every day for 14 days on the trot in this period.
+
+Going down to in position 10, only about 1% of SERPs had the same URL in position 10 for the entire 2-week period. Now that's already quite interesting to me because I wouldn't have predicted such a steep drop-off or such a smooth, sort of neat, unchaotic curve for this. I've got two pet theories as to why this might be.
+
+One, I guess the more obvious one is simply if you're in position 1, you can only move in one direction, and you can only move so much. Even if you're in position 2, you can only move a little bit in one direction. So maybe that kind of limit is part of why the higher positions seem more stable.
+
+However, I think probably the bigger reason, and this is, like I say, just a pet theory, I'd be curious if you want to pop in on Twitter and share your own ideas, but my favorite sort of explanation is that often there is an obvious winner for a SERP or maybe even an obvious top three, where you can think that for this keyword there's kind of one site which is going to be the right answer.
+
+Sometimes you can imagine it would be Wikipedia, for example. Or in many cases, a query might not be branded, but the product is very closely associated with one brand, something like this. Whereas when you get further down, Google is guessing a bit more of what you might be after, and you get a wider range of slightly more chaotic results. So that's a potential explanation.
+
+So this chart was looking at the percentage of positions that had one consistent URL. But I was also interested in if they don't have one URL, how many is it? Is it two just swapping in and out all the time, or is it a larger number?
+
+Now it turns out that looking across all of these SERP positions, all 40,000 SERPs in 14 days, all these positions, the majority of positions actually housed 4 URLs or more, which is a staggeringly large number.
+
+So although there were some that were stable with just one URL, the ones that were fluctuating were fluctuating a lot over the course of this period.
+
+So why so much change? Well, there are a few answers, some more obvious, some less obvious.
+
+I think the most obvious is we know Google has said in the past, I think about five years ago now, Google said they were doing, on average, seven daily algorithm updates.
+
+So as well as the big ones that we hear about, there's all of these small ones all the time. We can only assume that that number has gone up since then. So all of these daily changes, Google rolling out all of these tests that affect just a small percentage of SERPs, this is obviously going to cause a lot of fluctuation. Site changes as well.
+
+If you think that SEO works, then you think that changing things on a website changes rankings, and people are changing their websites all the time. In any given SERP, the chances are ripe that one of the URLs or one of the sites that that URL is on is being played with today. Maybe the internal links have changed. Maybe it was linked to you from somewhere externally. Maybe the anchor text is updated.
+
+Maybe it had some new content added, a new product. There will be all of these small changes. If the results are very close in their ranking ability, then you could imagine that they're going to go up or down a little bit in this period.
+
+Lastly, and I think maybe most controversially, we've been hearing a lot recently about the US vs. Google case and about some of the sort of exclusive data that maybe gives Google an unfair advantage.
+
+A lot of what's been coming out is about how they might be using user data to inform search results. Now there have been experiments in the past, by people like Rand Fishkin, showing how you can affect real-time ranking changes using user data, as in if you ask everyone in a big room to go and click on position 2 or 3 on a SERP, then that result will move its way upwards, this kind of thing.
+
+So maybe some of this reactive data is filtering through and affecting SERPs in real-time. We don't know, but it's possible.
+
+What are the implications, though? What does this actually mean for SEOs day-to-day?
+
+One is this has to affect how you think about reporting. A lot of us, and I've done this in the past myself, report weekly or monthly on SEO performance.
+
+But that can be potentially misleading. You can imagine if we've got a ranking chart and it's like this for your given keyword, and you happen to report on this day, well, that's nowhere near the average for the period. Similarly, if you happen to report on this day, you're not getting a particularly representative picture, and you can imagine one week you report here, the next week you report there, and you're reporting that there's been a big increase week-on-week.
+
+Well, there hasn't been, right? It was just all over the place. So it's necessary in reporting to have this more holistic overview and not just look at rankings once a week or something like this.
+
+The other implication, I think, is about overreaction, and this is a difficult one for SEOs because we do want to be able to get on top of problems quickly.
+
+But I think you have to know when you're reporting, oh, a given ranking has gone down or gone up, is it only that keyword? Is it normal for this keyword to be going up or down this amount? Is this something that we should get excited about basically, because a lot of people will want to say, "Oh, we made this change to our page. It's gone from position 4 to position 2 on this keyword we really care about."
+
+Great. Is it going to go back down to position 4 tomorrow? Is this just random?
+
+I think that's the way you have to think about it. So that's all. I hope that was interesting. Like I said, there will be a deeper version of this data linked to below:
+
+The author's views are entirely their own (excluding the unlikely event of hypnosis) and may not always reflect the views of Moz.
+
+I head up the Search Science team at Moz, working on Moz's next generation of tools, insights, and products.
+
+How does Google's AI Overview expand user queries? Tom Capper reveals 10 fan-out categories you can use to improve your prompt tracking and keyword research.
+
+In this episode of Whiteboard Friday, Chloe Osunsami provides 3 simple steps for crafting a successful digital PR strategy in 2026. Join her to discover how to analyze competitors, find AI visibility gaps, and secure authoritative brand mentions.
+
+Is your SEO strategy ready for LLM grounding? Explore the distinction between training data and live web retrieval, and discover how to optimize your brand's visibility in AI search results.
