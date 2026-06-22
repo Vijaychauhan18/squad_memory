@@ -1,0 +1,122 @@
+# Squad AI — Codex config
+# Generated from Vijay Chauhan's setup — paths use $HOME placeholder
+# setup.sh will replace $HOME with your actual home directory automatically
+#
+# Note: model and service_tier are set to Vijay's preferences — change if needed
+
+service_tier = "fast"
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+
+notify = ["$HOME/.codex/plugins/cache/openai-bundled/computer-use/1.0.770/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
+
+[mcp_servers.enterprise_seo]
+command = "node"
+args = ["$HOME/.codex/mcps/enterprise-seo-mcp/src/index.js"]
+
+[mcp_servers.squad_memory]
+command = "node"
+args = ["$HOME/.codex/mcps/squad-memory-mcp/src/index.js"]
+
+[mcp_servers.gsc_busbud]
+command = "mcp-server-gsc"
+
+[mcp_servers.gsc_busbud.env]
+GOOGLE_APPLICATION_CREDENTIALS = "$HOME/squad_ai_config_export/google-service-account.json"
+
+[mcp_servers.gsc_busbud.tools.enhanced_search_analytics]
+approval_mode = "approve"
+
+[mcp_servers.gsc_busbud.tools.search_analytics]
+approval_mode = "approve"
+
+[mcp_servers.ga4_busbud]
+command = "mcp-server-ga4"
+
+[mcp_servers.ga4_busbud.env]
+GA_PROPERTY_ID = "151796368"
+GOOGLE_APPLICATION_CREDENTIALS = "$HOME/squad_ai_config_export/google-service-account.json"
+
+[mcp_servers.ahrefs]
+command = "npx"
+args = ["-y", "@ahrefs/mcp"]
+
+[mcp_servers.ahrefs.env]
+AHREFS_API_KEY = "YOUR_AHREFS_API_KEY"
+API_KEY = "YOUR_SEOMCP_API_KEY"
+
+[mcp_servers.lumar_mcp_busbud]
+command = "node"
+args = ["$HOME/.codex/mcps/lumar-mcp/src/index.js"]
+
+[mcp_servers.lumar_mcp_busbud.env]
+LUMAR_CREDENTIALS_PATH = "$HOME/.codex/lumar_credentials.json"
+LUMAR_MIN_INTERVAL_MS = "1000"
+LUMAR_RATE_LIMIT_MAX_REQUESTS = "60"
+LUMAR_RATE_LIMIT_WINDOW_MS = "300000"
+LUMAR_SESSION_CACHE_PATH = "$HOME/.codex/lumar_session.json"
+
+[mcp_servers.seo_memory]
+command = "python3"
+args = ["$HOME/squad_memory/mcp/seo_memory_mcp_server.py", "--db", "$HOME/squad_memory/squad_memory.db", "--skills-root", "$HOME/.codex/skills", "--task-packs", "$HOME/squad_memory/task_packs.json"]
+startup_timeout_sec = 60.0
+
+[mcp_servers.amplitude]
+url = "https://mcp.amplitude.com/mcp"
+
+[mcp_servers.squad-memory-os]
+command = "python3"
+args = ["$HOME/squad_memory/mcp/universal_memory_mcp_server.py", "--skills-root", "$HOME/.codex/skills", "--task-packs", "$HOME/squad_memory/task_packs.json"]
+startup_timeout_sec = 60.0
+
+[mcp_servers.seogets]
+url = "https://app.seogets.com/mcp"
+
+[mcp_servers.seogets.headers]
+Authorization = "Bearer YOUR_SEOGETS_BEARER_TOKEN"
+
+[projects."$HOME"]
+trust_level = "trusted"
+
+[projects."$HOME/Desktop/claude_vj"]
+trust_level = "trusted"
+
+[notice.model_migrations]
+"gpt-5.3-codex" = "gpt-5.4"
+
+[features]
+multi_agent = true
+
+[plugins."google-drive@openai-curated"]
+enabled = true
+
+[plugins."busbud-seo-ops@vijay-local"]
+enabled = true
+
+[plugins."squad-memory-os@vijay-local"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[marketplaces.openai-bundled]
+last_updated = "2026-05-19T08:55:10Z"
+source_type = "local"
+source = "$HOME/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-05-19T10:02:48Z"
+source_type = "local"
+source = "$HOME/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
