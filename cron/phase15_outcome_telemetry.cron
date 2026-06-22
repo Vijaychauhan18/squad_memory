@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 15 runs.
+# The active system uses the locked wrapper instead.
+
+41 */6 * * * /Users/vijaychauhan/squad_memory/run_phase15_outcome_telemetry.sh

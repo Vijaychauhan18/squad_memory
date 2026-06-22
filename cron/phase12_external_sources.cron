@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 12 runs.
+# The active system uses the locked wrapper instead.
+
+11 */6 * * * /Users/vijaychauhan/squad_memory/run_phase12_external_sources.sh

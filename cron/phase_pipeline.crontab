@@ -1,0 +1,15 @@
+# Squad memory knowledge factory cron schedule
+#
+# Install with:
+#   crontab /Users/vijaychauhan/squad_memory/cron/phase_pipeline.crontab
+#
+# Tiered schedule:
+# - every 4 hours: strict reputable-source freshness fetch + DB rebuild
+# - every 6 hours: locked full pipeline + OpenClaw sync
+# - nightly: archive backfill from secondary reputable sources
+# - daily: strict prune, eval, and router refresh
+
+7 */4 * * * zsh /Users/vijaychauhan/squad_memory/run_reputable_ai_geo_seo_sync.sh
+17 */6 * * * /Users/vijaychauhan/squad_memory/run_phase_pipeline.sh
+33 2 * * * zsh /Users/vijaychauhan/squad_memory/run_archive_backfill.sh
+55 3 * * * zsh /Users/vijaychauhan/squad_memory/run_daily_reputable_cleanup.sh

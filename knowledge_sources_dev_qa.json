@@ -1,0 +1,104 @@
+{
+  "name": "Phase 25 Developer QA Source Monitor",
+  "description": "Trusted engineering and testing sources for Chitin and Reef external-source ingestion and canon fusion.",
+  "sources": [
+    {
+      "domain": "developer",
+      "slug": "martin-fowler",
+      "name": "Martin Fowler",
+      "homepage": "https://martinfowler.com/",
+      "kind": "practitioner",
+      "strength": "software design, refactoring, architecture patterns, engineering decision quality",
+      "topic": "engineering_patterns",
+      "confidence": "high",
+      "roles": ["developer", "developer-chitin", "reviewer", "pinchy"],
+      "intent": ["research", "monitoring", "engineering_examples", "implementation_patterns"],
+      "tags": ["martin-fowler", "developer", "architecture"],
+      "feed_urls": [
+        "https://martinfowler.com/feed.atom"
+      ]
+    },
+    {
+      "domain": "developer",
+      "slug": "thoughtbot",
+      "name": "thoughtbot",
+      "homepage": "https://thoughtbot.com/blog",
+      "kind": "publication",
+      "strength": "pragmatic implementation, testing discipline, maintainable product engineering",
+      "topic": "engineering_patterns",
+      "confidence": "high",
+      "roles": ["developer", "developer-chitin", "reviewer", "pinchy"],
+      "intent": ["research", "monitoring", "engineering_examples", "implementation_patterns"],
+      "tags": ["thoughtbot", "developer", "implementation"],
+      "feed_urls": [
+        "https://feed.thoughtbot.com"
+      ]
+    },
+    {
+      "domain": "developer",
+      "slug": "github-engineering",
+      "name": "GitHub Engineering",
+      "homepage": "https://github.blog/engineering/",
+      "kind": "publication",
+      "strength": "large-scale engineering systems, tooling, developer experience, platform implementation examples",
+      "topic": "engineering_systems",
+      "confidence": "medium",
+      "roles": ["developer", "developer-chitin", "reviewer", "devops", "pinchy"],
+      "intent": ["research", "monitoring", "engineering_examples", "tooling_changes"],
+      "tags": ["github", "engineering", "tooling"],
+      "discovery_urls": [
+        "https://github.blog/engineering/"
+      ],
+      "listing_fallback": true
+    },
+    {
+      "domain": "qa",
+      "slug": "playwright-releases",
+      "name": "Playwright Releases",
+      "homepage": "https://github.com/microsoft/playwright/releases",
+      "kind": "release_notes",
+      "strength": "browser automation changes, testing framework updates, release-level QA signals",
+      "topic": "test_tooling",
+      "confidence": "high",
+      "roles": ["qa", "qa-reef", "developer", "pinchy"],
+      "intent": ["research", "monitoring", "tooling_changes", "release_patterns"],
+      "tags": ["playwright", "qa", "release_notes"],
+      "feed_urls": [
+        "https://github.com/microsoft/playwright/releases.atom"
+      ]
+    },
+    {
+      "domain": "qa",
+      "slug": "cypress-releases",
+      "name": "Cypress Releases",
+      "homepage": "https://github.com/cypress-io/cypress/releases",
+      "kind": "release_notes",
+      "strength": "end-to-end testing changes, tooling updates, release-level QA signals",
+      "topic": "test_tooling",
+      "confidence": "high",
+      "roles": ["qa", "qa-reef", "developer", "pinchy"],
+      "intent": ["research", "monitoring", "tooling_changes", "release_patterns"],
+      "tags": ["cypress", "qa", "release_notes"],
+      "feed_urls": [
+        "https://github.com/cypress-io/cypress/releases.atom"
+      ]
+    },
+    {
+      "domain": "qa",
+      "slug": "cypress-blog",
+      "name": "Cypress Blog",
+      "homepage": "https://www.cypress.io/blog",
+      "kind": "publication",
+      "strength": "test strategy, QA workflows, automation patterns, testing practice examples",
+      "topic": "testing_patterns",
+      "confidence": "medium",
+      "roles": ["qa", "qa-reef", "developer", "pinchy", "reviewer"],
+      "intent": ["research", "monitoring", "testing_examples", "tooling_changes"],
+      "tags": ["cypress", "qa", "testing"],
+      "discovery_urls": [
+        "https://www.cypress.io/blog"
+      ],
+      "listing_fallback": true
+    }
+  ]
+}

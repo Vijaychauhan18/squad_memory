@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 28 runs.
+# The active system uses the locked wrapper instead.
+
+26 */6 * * * /Users/vijaychauhan/squad_memory/run_phase28_triage_dev_qa_queue.sh

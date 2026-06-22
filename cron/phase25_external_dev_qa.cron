@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 25 runs.
+# The active system uses the locked wrapper instead.
+
+56 */6 * * * /Users/vijaychauhan/squad_memory/run_phase25_external_dev_qa.sh

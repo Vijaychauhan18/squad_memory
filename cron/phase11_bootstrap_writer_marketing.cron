@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 11 runs.
+# The active system uses the locked wrapper instead.
+
+59 */6 * * * /Users/vijaychauhan/squad_memory/run_phase11_bootstrap_writer_marketing.sh

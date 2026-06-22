@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 6 runs.
+# The active system uses the locked wrapper instead.
+
+53 */6 * * * /Users/vijaychauhan/squad_memory/run_phase6_promote_approved.sh

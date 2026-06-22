@@ -1,0 +1,54 @@
+{
+  "name": "Phase 17 Charles Source Monitor",
+  "description": "Trusted social, creator, and platform-focused publications for Charles external-source ingestion and canon fusion.",
+  "sources": [
+    {
+      "slug": "buffer",
+      "name": "Buffer",
+      "domain": "charles",
+      "homepage": "https://buffer.com/resources/",
+      "kind": "publication",
+      "strength": "platform-native posting, creator workflows, social distribution patterns",
+      "topic": "social_distribution",
+      "confidence": "high",
+      "roles": ["charles", "current", "pinchy", "marketing"],
+      "intent": ["research", "monitoring", "creator_examples", "social_patterns"],
+      "tags": ["buffer", "social_media", "distribution"],
+      "feed_urls": [
+        "https://buffer.com/resources/feed/"
+      ]
+    },
+    {
+      "slug": "hootsuite",
+      "name": "Hootsuite",
+      "domain": "charles",
+      "homepage": "https://blog.hootsuite.com/",
+      "kind": "publication",
+      "strength": "social media operations, platform tactics, creator playbooks",
+      "topic": "social_distribution",
+      "confidence": "high",
+      "roles": ["charles", "current", "pinchy", "marketing"],
+      "intent": ["research", "monitoring", "creator_examples", "platform_changes"],
+      "tags": ["hootsuite", "social_media", "creator"],
+      "feed_urls": [
+        "https://blog.hootsuite.com/feed/"
+      ]
+    },
+    {
+      "slug": "social-media-examiner",
+      "name": "Social Media Examiner",
+      "domain": "charles",
+      "homepage": "https://www.socialmediaexaminer.com/",
+      "kind": "publication",
+      "strength": "platform changes, channel-specific best practices, social tactics",
+      "topic": "platform_changes",
+      "confidence": "medium",
+      "roles": ["charles", "current", "pinchy", "marketing"],
+      "intent": ["research", "monitoring", "platform_changes", "social_patterns"],
+      "tags": ["social_media_examiner", "social", "platform_changes"],
+      "feed_urls": [
+        "https://www.socialmediaexaminer.com/feed/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 18 runs.
+# The active system uses the locked wrapper instead.
+
+5 */6 * * * /Users/vijaychauhan/squad_memory/run_phase18_promote_charles.sh

@@ -1,0 +1,2 @@
+# Phase 2: canonical summaries and checklist generation
+29 */6 * * * /Users/vijaychauhan/squad_memory/run_phase2_canonicalize.sh

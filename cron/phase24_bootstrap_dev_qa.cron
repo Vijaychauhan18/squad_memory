@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 24 runs.
+# The active system uses the locked wrapper instead.
+
+47 */6 * * * /Users/vijaychauhan/squad_memory/run_phase24_bootstrap_dev_qa.sh

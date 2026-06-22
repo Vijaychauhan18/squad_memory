@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 7 runs.
+# The active system uses the locked wrapper instead.
+
+59 */6 * * * /Users/vijaychauhan/squad_memory/run_phase7_merge_canon.sh

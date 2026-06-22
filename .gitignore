@@ -1,34 +1,62 @@
-# Vector databases — too large for GitHub (559MB + 825MB)
-# Get them from the Google Drive link, or let setup rebuild them
-*.db
-*.db-wal
-*.db-shm
+# macOS / editor noise
+.DS_Store
+*.swp
+*.swo
 
-# Logs
-logs/
-*.log
-
-# Credentials — never commit
-*.json.key
-service_account*.json
-credentials*.json
-.env
-.env.*
-
-# Python
+# Python runtime artifacts
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .venv/
 venv/
 
-# macOS
-.DS_Store
+# Local secrets and machine-specific config
+.env
+.env.*
+*.key
+*.pem
+credentials*
+*secret*
+*token*
 
-# Ingest raw data — large, rebuilt by scrapers
-squad_memory/ingest/raw/
-squad_memory/ingest/phase*/
+# Vector databases — too large for GitHub (559MB + 825MB)
+# Get them from Google Drive, or let setup.sh / setup.ps1 rebuild them
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.tmp
+*.tmp-*
+*-journal
+
+# Runtime logs and locks
+logs/
+locks/
+*.log
+
+# Generated scrape/vector artifacts
+ingest/
+status/
+reports/
+raw/
+squad_memory/ingest/
 squad_memory/status/
 
 # Portable snapshot — rebuilt by sync
 portable-repos/
+
+# Local run controls
+seo_elite_2h_sprint_stop_at.txt
+seo_expert_feed_stop_at.txt
+
+# Test/runtime output
+test-results/
+
+# Local release packages
+release-artifacts/
+
+# Credentials — never commit
+*.json.key
+service_account*.json

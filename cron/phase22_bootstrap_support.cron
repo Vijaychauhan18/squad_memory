@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 22 runs.
+# The active system uses the locked wrapper instead.
+
+38 */6 * * * /Users/vijaychauhan/squad_memory/run_phase22_bootstrap_support.sh

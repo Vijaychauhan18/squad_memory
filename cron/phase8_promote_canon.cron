@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 8 runs.
+# The active system uses the locked wrapper instead.
+
+63 */6 * * * /Users/vijaychauhan/squad_memory/run_phase8_promote_canon.sh

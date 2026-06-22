@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 27 runs.
+# The active system uses the locked wrapper instead.
+
+20 */6 * * * /Users/vijaychauhan/squad_memory/run_phase27_promote_dev_qa_approved.sh

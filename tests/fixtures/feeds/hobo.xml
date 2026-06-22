@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Hobo Web</title>
+    <link>https://www.hobo-web.co.uk/</link>
+    <description>Hobo fixture feed</description>
+    <item>
+      <title>Content Effort and AI Search Quality</title>
+      <link>https://www.hobo-web.co.uk/content-effort-ai-search-quality/</link>
+      <pubDate>Thu, 19 Mar 2026 12:30:00 GMT</pubDate>
+      <description>Fixture article on content effort, trust, and post-click satisfaction.</description>
+    </item>
+    <item>
+      <title>NavBoost and Satisfaction Loops</title>
+      <link>https://www.hobo-web.co.uk/navboost-satisfaction-loops/</link>
+      <pubDate>Tue, 17 Mar 2026 12:30:00 GMT</pubDate>
+      <description>Fixture breakdown of clicks, satisfaction, and quality interpretation.</description>
+    </item>
+  </channel>
+</rss>

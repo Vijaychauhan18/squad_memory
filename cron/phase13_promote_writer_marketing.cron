@@ -1,0 +1,4 @@
+# Reference schedule for standalone Phase 13 runs.
+# The active system uses the locked wrapper instead.
+
+23 */6 * * * /Users/vijaychauhan/squad_memory/run_phase13_promote_writer_marketing.sh

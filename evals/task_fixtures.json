@@ -1,0 +1,97 @@
+{
+  "cases": [
+    {
+      "query": "Need a plan for AI visibility, brand mentions, and AIO traffic loss for our SEO squad",
+      "role": "pinchy",
+      "expected_pack_id": "ai_visibility_audit",
+      "expected_primary_skill": "seo",
+      "expected_supporting_skills": ["dejan-ai-reverse-engineering", "marketing"],
+      "expected_memory_paths": ["seo/memory/ahrefs-ai-visibility-guide.md"],
+      "expected_output_sections": ["Baseline", "Diagnosis", "Priority Fixes", "Measurement"],
+      "expected_deliverables": ["Visibility baseline with gaps", "Prioritized fix list"]
+    },
+    {
+      "query": "Need a technical SEO war room for crawlability, canonicals, rendering, and validation before release",
+      "role": "pinchy",
+      "expected_pack_id": "technical_seo_war_room",
+      "expected_primary_skill": "seo",
+      "expected_supporting_skills": ["developer", "qa", "reviewer"],
+      "expected_output_sections": ["Signals", "Diagnosis", "Fix Plan", "Validation"],
+      "expected_deliverables": ["Technical diagnosis", "Validation checklist"]
+    },
+    {
+      "query": "Need a content brief for a target keyword with audience, angle, outline, evidence requirements, and success criteria",
+      "expected_pack_id": "content_brief",
+      "expected_primary_skill": "seo",
+      "expected_supporting_skills": ["writer", "researcher"],
+      "expected_output_sections": ["Query and Intent", "Angle", "Outline", "Evidence", "Success Criteria"],
+      "expected_deliverables": ["Clear article angle", "Evidence and source requirements"]
+    },
+    {
+      "query": "Need a blog post draft from a brief with a strong hook, clean structure, and promotion-ready angles",
+      "expected_pack_id": "article_draft",
+      "expected_primary_skill": "writer",
+      "expected_supporting_skills": ["seo", "marketing"],
+      "expected_memory_paths": ["writer/memory/brief-to-draft.md"],
+      "expected_output_sections": ["Hook", "Draft", "Revision Notes", "Promotion Hooks"],
+      "expected_deliverables": ["Working outline", "First full draft"]
+    },
+    {
+      "query": "Need platform-native LinkedIn and X versions of the same message plus follow-up hook angles",
+      "expected_pack_id": "social_repurpose",
+      "expected_primary_skill": "charles",
+      "expected_supporting_skills": ["marketing", "writer"],
+      "expected_memory_paths": ["charles/memory/platform-native-posting-system.md"],
+      "expected_output_sections": ["LinkedIn", "X", "Follow-up Angles", "CTA Map"],
+      "expected_deliverables": ["Platform-native post set", "Follow-up hook variants"]
+    },
+    {
+      "query": "Need to coordinate writer, SEO, marketing, and operations for a launch with explicit owners and handoffs",
+      "role": "pinchy",
+      "expected_pack_id": "launch_coordination",
+      "expected_primary_skill": "orchestrator-pinchy",
+      "expected_supporting_skills": ["marketing", "operations"],
+      "expected_output_sections": ["Objective", "Owners", "Timeline", "Handoffs", "Review"],
+      "expected_deliverables": ["Launch owner map", "Sequenced rollout checklist"]
+    },
+    {
+      "query": "Need to triage a customer issue, send the first reply fast, and escalate engineering or billing cleanly",
+      "expected_pack_id": "support_triage",
+      "expected_primary_skill": "support-anemone",
+      "expected_supporting_skills": ["developer", "finance"],
+      "expected_memory_paths": ["support-anemone/memory/fast-first-response-and-severity-triage.md"],
+      "expected_output_sections": ["Issue Summary", "Severity", "First Reply", "Escalation", "Follow-up"],
+      "expected_deliverables": ["Severity classification", "First-response draft"]
+    },
+    {
+      "query": "Need a fact-check brief with a claim-by-claim evidence table, confidence markers, and open questions",
+      "expected_pack_id": "fact_check_brief",
+      "expected_primary_skill": "researcher",
+      "expected_supporting_skills": ["writer", "seo"],
+      "expected_output_sections": ["Claims", "Evidence", "Confidence", "Open Questions"],
+      "expected_deliverables": ["Claim-by-claim evidence table", "Confidence markers"]
+    },
+    {
+      "query": "Need a code review focused on correctness, hidden risks, test gaps, and a clear verdict",
+      "expected_pack_id": "code_review",
+      "expected_primary_skill": "reviewer",
+      "expected_output_sections": ["Findings", "Risks", "Test Gaps", "Verdict"],
+      "expected_deliverables": ["Findings list", "Verdict"]
+    },
+    {
+      "query": "Need a regression test gate before deployment with clear checks, blockers, and verdict",
+      "expected_pack_id": "regression_gate",
+      "expected_primary_skill": "qa",
+      "expected_memory_paths": ["qa/memory/regression-gate-and-release-verdicts.md"],
+      "expected_output_sections": ["Scope", "Checks", "Blockers", "Verdict"],
+      "expected_deliverables": ["Regression scope", "PASS/FAIL/BLOCKED verdict"]
+    },
+    {
+      "query": "Need a production incident response with rollback, owners, timeline, and prevention follow-up after a failed release",
+      "expected_pack_id": "incident_response",
+      "expected_primary_skill": "devops",
+      "expected_output_sections": ["Severity", "Immediate Actions", "Owners", "Timeline", "Prevention"],
+      "expected_deliverables": ["Severity and rollback decision", "Incident timeline"]
+    }
+  ]
+}
