@@ -11,12 +11,9 @@
       "mcp__seo-memory",
       "mcp__squad-memory",
       "mcp__enterprise-seo",
-      "mcp__seo-intelligence-mcp",
-      "mcp__seo-enterprise-mcp",
       "mcp__ga4-busbud",
       "mcp__lumar-mcp",
       "mcp__gsc-busbud",
-      "mcp__pencil",
       "mcp__squad-memory-os",
       "mcp__squad-memory-os__query_memory",
       "mcp__squad-memory-os__seo_elite_status",
@@ -80,13 +77,13 @@
     "seo-memory": {
       "command": "python3",
       "args": [
-        "$HOME/portable-repos/seo-vector-snapshot/mcp/seo_memory_mcp_server.py",
+        "$HOME/squad_memory/mcp/universal_memory_mcp_server.py",
         "--db",
         "$HOME/squad_memory/squad_memory.db",
         "--skills-root",
         "$HOME/.codex/skills",
         "--task-packs",
-        "$HOME/portable-repos/seo-vector-snapshot/tools/task_packs.json"
+        "$HOME/squad_memory/task_packs.json"
       ]
     },
     "squad-memory": {
@@ -101,22 +98,16 @@
         "$HOME/.codex/mcps/enterprise-seo-mcp/src/index.js"
       ]
     },
-    "seo-intelligence-mcp": {
-      "command": "$HOME/Desktop/seo-intelligence-mcp/.venv/bin/python",
-      "args": [
-        "$HOME/Desktop/seo-intelligence-mcp/server.py"
-      ]
-    },
-    "seo-enterprise-mcp": {
-      "command": "$HOME/Desktop/seo-enterprise-mcp/.venv/bin/python",
-      "args": [
-        "$HOME/Desktop/seo-enterprise-mcp/server.py"
-      ]
-    },
     "ga4-busbud": {
-      "command": "$HOME/.nvm/versions/node/v24.13.1/bin/mcp-server-ga4",
+      "command": "mcp-server-ga4",
       "env": {
         "GA_PROPERTY_ID": "YOUR_GA4_PROPERTY_ID",
+        "GOOGLE_APPLICATION_CREDENTIALS": "YOUR_GOOGLE_SERVICE_ACCOUNT_KEY_PATH"
+      }
+    },
+    "gsc-busbud": {
+      "command": "mcp-server-gsc",
+      "env": {
         "GOOGLE_APPLICATION_CREDENTIALS": "YOUR_GOOGLE_SERVICE_ACCOUNT_KEY_PATH"
       }
     },
@@ -131,19 +122,6 @@
         "LUMAR_RATE_LIMIT_MAX_REQUESTS": "60",
         "LUMAR_RATE_LIMIT_WINDOW_MS": "300000",
         "LUMAR_MIN_INTERVAL_MS": "1000"
-      }
-    },
-    "pencil": {
-      "command": "/Applications/Pencil.app/Contents/Resources/app.asar.unpacked/out/mcp-server-darwin-arm64",
-      "args": [
-        "--app",
-        "antigravity"
-      ]
-    },
-    "gsc-busbud": {
-      "command": "$HOME/.nvm/versions/node/v24.13.1/bin/mcp-server-gsc",
-      "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "YOUR_GOOGLE_SERVICE_ACCOUNT_KEY_PATH"
       }
     },
     "squad-memory-os": {

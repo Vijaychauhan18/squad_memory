@@ -27,19 +27,42 @@ A 24-agent AI system for SEO professionals, built on Claude Code. One setup, ful
 
 ---
 
-## Setup — 3 steps
+## Setup
+
+### Windows
+
+```powershell
+# 1. Clone
+git clone https://github.com/Vijaychauhan18/squad_memory.git
+cd squad_memory
+
+# 2. Reassemble the vector databases (required — they ship as chunks)
+cd squad_memory\db_chunks
+python reassemble_dbs.py
+cd ..\..
+
+# 3. Run setup (PowerShell as Admin)
+powershell -ExecutionPolicy Bypass -File setup.ps1
+
+# 4. Fill in API keys — Vijay will share these separately
+# Edit: %USERPROFILE%\.claude\settings.json
+```
+
+### Mac / Linux
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR_ORG/squad-ai-setup.git
-cd squad-ai-setup
+# 1. Clone
+git clone https://github.com/Vijaychauhan18/squad_memory.git
+cd squad_memory
 
-# 2. Run setup
+# 2. Reassemble the vector databases
+cd squad_memory/db_chunks && python3 reassemble_dbs.py && cd ../..
+
+# 3. Run setup
 zsh setup.sh
 
-# 3. Add API keys
-# Open ~/.claude/settings.json and fill in YOUR_* placeholders
-# Vijay will share these credentials separately
+# 4. Fill in API keys
+# Edit: ~/.claude/settings.json
 ```
 
 ### API keys you need (get from Vijay)
@@ -104,7 +127,8 @@ python3 vector_scraper_watch_dashboard.py --host 127.0.0.1 --port 8794 &
 ## Repo structure
 
 ```
-├── setup.sh                    ← Run this first
+├── setup.sh                    ← Mac/Linux setup
+├── setup.ps1                   ← Windows setup (PowerShell)
 ├── settings.template.json      ← Claude Code MCP config (fill in API keys)
 ├── claude/
 │   ├── CLAUDE.md               ← Pinchy orchestrator (goes to ~/.claude/)
@@ -112,7 +136,8 @@ python3 vector_scraper_watch_dashboard.py --host 127.0.0.1 --port 8794 &
 ├── squad_memory/
 │   ├── *.py / *.sh             ← Pipeline scripts
 │   ├── knowledge_sources*.json ← Scraper source configs
-│   └── mcp/                    ← Universal memory MCP server
+│   ├── mcp/                    ← Universal memory MCP server
+│   └── db_chunks/              ← Split databases (reassemble_dbs.py joins them)
 ├── codex/skills/seo/           ← SEO knowledge base (3,980 .md notes)
 └── docs/
     ├── AGENTS.md               ← Full agent reference
