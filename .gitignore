@@ -1,4 +1,5 @@
-# Databases — too large for git (rebuild with setup.sh)
+# Vector databases — too large for GitHub (559MB + 825MB)
+# Get them from the Google Drive link, or let setup rebuild them
 *.db
 *.db-wal
 *.db-shm

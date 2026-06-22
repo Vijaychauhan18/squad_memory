@@ -1,0 +1,17 @@
+# Vector databases — too large for git (use setup.sh to copy or rebuild)
+*.db
+*.db-shm
+*.db-wal
+
+# Logs and runtime state
+logs/
+status/
+ingest/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# API keys / secrets
+*.env
+.env

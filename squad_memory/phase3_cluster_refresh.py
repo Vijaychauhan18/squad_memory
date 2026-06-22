@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 DEFAULT_OUTPUT = HOME / ".codex" / "skills" / "seo" / "memory"
 DEFAULT_SKILLS_ROOT = HOME / ".codex" / "skills"
 DEFAULT_DB = HOME / "squad_memory" / "squad_memory.db"

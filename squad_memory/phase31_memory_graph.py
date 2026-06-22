@@ -14,7 +14,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 from urllib.parse import parse_qs, urlparse
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_INGEST_ROOT = BASE / "ingest"
 DEFAULT_PHASE21_STATUS = DEFAULT_INGEST_ROOT / "phase21" / "control_plane_status.json"
@@ -1889,7 +1889,7 @@ def write_artifacts(phase31_dir: Path, payload: Dict[str, Any]) -> Dict[str, str
         "Run the local viewer with:",
         "",
         "```bash",
-        "python3 /Users/vijaychauhan/squad_memory/phase31_memory_graph.py serve --port 8765",
+        "python3 ~/squad_memory/phase31_memory_graph.py serve --port 8765",
         "```",
         "",
         "Then open `http://127.0.0.1:8765`.",

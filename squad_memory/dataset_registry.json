@@ -1,0 +1,130 @@
+{
+  "datasets": [
+    {
+      "id": "seo_elite",
+      "label": "SEO Elite DB",
+      "db_path": "$HOME/squad_memory/seo_elite_memory.db",
+      "query_adapter": "squad_memory_rank",
+      "purpose": "Freshness-first SEO research corpus used by the realtime elite dashboard and graph view.",
+      "owner": "Platform Engineering",
+      "update_source": "SEO Elite live sync, archive backfill, primary-source refresh, and status builds",
+      "dashboard_urls": [
+        "http://127.0.0.1:8788/",
+        "http://127.0.0.1:8765/"
+      ],
+      "status_json_path": "$HOME/.codex/elite-skills/seo-elite/status/latest-status.json",
+      "history_path": "$HOME/.codex/elite-skills/seo-elite/status/history/timeline.jsonl",
+      "refresh_command": "python3 $HOME/squad_memory/report_seo_elite_status.py",
+      "health_command": "curl http://127.0.0.1:8788/api/health",
+      "expected_count_band": "45k to 65k chunks",
+      "relations": [
+        {
+          "type": "bridges_into",
+          "target": "squad_memory",
+          "path_prefix": "seo/memory/imports/seo-elite/"
+        },
+        {
+          "type": "mirrors_to",
+          "target": "portable_snapshot"
+        },
+        {
+          "type": "syncs_to",
+          "target": "openclaw_seo"
+        }
+      ]
+    },
+    {
+      "id": "squad_memory",
+      "label": "Squad Memory DB",
+      "db_path": "$HOME/squad_memory/squad_memory.db",
+      "query_adapter": "squad_memory_rank",
+      "purpose": "Broad multi-skill squad memory with task-pack execution, routing, retrieval, and learning state.",
+      "owner": "Platform Engineering",
+      "update_source": "Direct ingests plus SEO Elite bridge imports and task-pack workflows",
+      "dashboard_urls": [],
+      "refresh_command": "python3 $HOME/squad_memory/squad_memory.py report",
+      "health_command": "sqlite3 $HOME/squad_memory/squad_memory.db 'select count(*) from chunks;'",
+      "expected_count_band": "60k to 90k chunks",
+      "relations": [
+        {
+          "type": "imports_from",
+          "target": "seo_elite",
+          "path_prefix": "seo/memory/imports/seo-elite/"
+        },
+        {
+          "type": "snapshotted_to",
+          "target": "portable_snapshot"
+        },
+        {
+          "type": "feeds",
+          "target": "openclaw_main"
+        }
+      ]
+    },
+    {
+      "id": "portable_snapshot",
+      "label": "Portable Snapshot DB",
+      "db_path": "$HOME/portable-repos/seo-vector-snapshot/db/squad_memory.db",
+      "query_adapter": "squad_memory_rank",
+      "purpose": "Portable SEO vector snapshot used by the external memory MCP and snapshot-based retrieval flows.",
+      "owner": "Platform Engineering",
+      "update_source": "Snapshot rebuilds and portable vector DB sync jobs",
+      "dashboard_urls": [],
+      "refresh_command": "python3 $HOME/portable-repos/seo-vector-snapshot/tools/squad_memory.py build",
+      "health_command": "sqlite3 $HOME/portable-repos/seo-vector-snapshot/db/squad_memory.db 'select count(*) from chunks;'",
+      "expected_count_band": "55k to 80k chunks",
+      "relations": [
+        {
+          "type": "receives_snapshot_from",
+          "target": "squad_memory"
+        }
+      ]
+    },
+    {
+      "id": "openclaw_main",
+      "label": "OpenClaw Main",
+      "db_path": "$HOME/.openclaw/memory/main.sqlite",
+      "query_adapter": "counts_only",
+      "purpose": "OpenClaw general memory store for broader operational knowledge and imported squad context.",
+      "owner": "OpenClaw",
+      "update_source": "OpenClaw importers, HQ sync, and memory refresh jobs",
+      "dashboard_urls": [
+        "http://127.0.0.1:18789/dashboard"
+      ],
+      "refresh_command": "python3 $HOME/squad_memory/refresh_openclaw_memory.py",
+      "health_command": "sqlite3 $HOME/.openclaw/memory/main.sqlite 'select count(*) from chunks;'",
+      "expected_count_band": "50k to 120k chunks",
+      "relations": [
+        {
+          "type": "fed_by",
+          "target": "squad_memory"
+        }
+      ]
+    },
+    {
+      "id": "openclaw_seo",
+      "label": "OpenClaw SEO",
+      "db_path": "$HOME/.openclaw/memory/seo.sqlite",
+      "query_adapter": "counts_only",
+      "purpose": "OpenClaw SEO-focused memory store for SEO missions, automation, and imported elite knowledge.",
+      "owner": "OpenClaw SEO",
+      "update_source": "SEO mission syncs, bridge imports, and OpenClaw SEO refresh jobs",
+      "dashboard_urls": [
+        "http://127.0.0.1:18789/dashboard"
+      ],
+      "refresh_command": "python3 $HOME/squad_memory/refresh_openclaw_seo_bridge.py",
+      "health_command": "sqlite3 $HOME/.openclaw/memory/seo.sqlite 'select count(*) from chunks;'",
+      "expected_count_band": "30k to 100k chunks",
+      "relations": [
+        {
+          "type": "fed_by",
+          "target": "seo_elite"
+        },
+        {
+          "type": "linked_to",
+          "target": "openclaw_main"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "sources": [
+    {
+      "slug": "dejan",
+      "name": "DEJAN / Dan Petrovic",
+      "homepage": "https://dejan.ai/blog/",
+      "strength": "AI-search reverse engineering, grounding, AI Mode, machine readability",
+      "topic": "ai_reverse_engineering",
+      "feed_urls": [
+        "https://dejan.ai/blog/feed/"
+      ]
+    },
+    {
+      "slug": "gsqi",
+      "name": "Glenn Gabe / GSQi",
+      "homepage": "https://www.gsqi.com/marketing-blog/",
+      "strength": "core updates, quality systems, AI-surface impact, feature swaps",
+      "topic": "quality_systems",
+      "feed_urls": [
+        "https://www.gsqi.com/marketing-blog/feed/"
+      ]
+    },
+    {
+      "slug": "marie",
+      "name": "Marie Haynes",
+      "homepage": "https://www.mariehaynes.com/",
+      "strength": "AI Mode chronology, quality raters, query fan-out, AI content policy",
+      "topic": "rollout_and_qrg",
+      "feed_urls": [
+        "https://www.mariehaynes.com/feed/"
+      ]
+    },
+    {
+      "slug": "lily",
+      "name": "Lily Ray",
+      "homepage": "https://lilyray.nyc/blog/",
+      "strength": "AI-search trust, AIO quality, Gemini grounding, Google commentary",
+      "topic": "trust_and_rag",
+      "feed_urls": [
+        "https://lilyray.nyc/feed/"
+      ]
+    },
+    {
+      "slug": "mobilemoxie",
+      "name": "Cindy Krum / MobileMoxie",
+      "homepage": "https://mobilemoxie.com/blog/",
+      "strength": "mobile SERP observation, Fraggles, passage visibility, AI overview tracking",
+      "topic": "serp_observation",
+      "feed_urls": [
+        "https://mobilemoxie.com/blog/feed/"
+      ]
+    },
+    {
+      "slug": "brodie",
+      "name": "Brodie Clark",
+      "homepage": "https://brodieclark.com/",
+      "strength": "AI Mode tracking, Search Console experiments, SERP feature timelines",
+      "topic": "reporting_and_serp_features",
+      "feed_urls": [
+        "https://brodieclark.com/feed/"
+      ]
+    },
+    {
+      "slug": "ipullrank",
+      "name": "Mike King / iPullRank",
+      "homepage": "https://ipullrank.com/",
+      "strength": "relevance engineering, GEO, query fan-out, embeddings, AI-search strategy",
+      "topic": "relevance_engineering",
+      "feed_urls": [
+        "https://ipullrank.com/feed/"
+      ]
+    },
+    {
+      "slug": "aleyda",
+      "name": "Aleyda Solis",
+      "homepage": "https://www.aleydasolis.com/en/",
+      "strength": "international SEO, AI-search operations, SERP economics, curation",
+      "topic": "operations_and_international",
+      "feed_urls": [
+        "https://www.aleydasolis.com/en/feed/",
+        "https://www.aleydasolis.com/feed/"
+      ]
+    },
+    {
+      "slug": "jono",
+      "name": "Jono Alderson",
+      "homepage": "https://www.jonoalderson.com/",
+      "strength": "technical architecture, structured data, performance, information architecture",
+      "topic": "technical_architecture",
+      "feed_urls": [
+        "https://www.jonoalderson.com/feed/"
+      ]
+    },
+    {
+      "slug": "seroundtable",
+      "name": "Barry Schwartz / Search Engine Roundtable",
+      "homepage": "https://www.seroundtable.com/",
+      "strength": "fast rollout monitoring, confirmation of changes, daily search news",
+      "topic": "daily_monitoring",
+      "feed_urls": [
+        "https://www.seroundtable.com/atom.xml",
+        "https://www.seroundtable.com/index.xml"
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 #!/bin/zsh
 set -eu
 
-BASE="/Users/vijaychauhan/squad_memory"
+BASE="$HOME/squad_memory"
 LOG_DIR="$BASE/logs"
-SKILLS_ROOT="/Users/vijaychauhan/.codex/elite-skills"
+SKILLS_ROOT="$HOME/.codex/elite-skills"
 ARCHIVE_DIR="$SKILLS_ROOT/seo-elite/memory/archive"
 RUNS_DIR="$BASE/ingest/seo_elite/archive/runs"
 SNAPSHOT_DIR="$BASE/ingest/seo_elite/archive/raw"

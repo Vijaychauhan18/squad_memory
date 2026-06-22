@@ -16,7 +16,7 @@ from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 DEFAULT_CONFIG = HOME / "squad_memory" / "seo_expert_sources.json"
 DEFAULT_OUTPUT = HOME / ".codex" / "skills" / "seo" / "memory"
 DEFAULT_LOG_DIR = HOME / "squad_memory" / "logs"

@@ -12,7 +12,7 @@ from openclaw_hq_context import build_graph_hq_context
 from refresh_local_seo_stack import refresh_local_seo_stack
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 DEFAULT_WORKSPACE = HOME / ".openclaw" / "workspace" / "squad" / "seo"
 ROUTE_HISTORY_LIMIT = 36
 

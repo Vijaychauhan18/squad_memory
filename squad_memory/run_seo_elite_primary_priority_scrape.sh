@@ -1,10 +1,10 @@
 #!/bin/zsh
 set -eu
 
-BASE="/Users/vijaychauhan/squad_memory"
+BASE="$HOME/squad_memory"
 LOG_DIR="$BASE/logs"
 CONFIG="$BASE/seo_elite_primary_sources.json"
-SKILLS_ROOT="/Users/vijaychauhan/.codex/elite-skills"
+SKILLS_ROOT="$HOME/.codex/elite-skills"
 PRIMARY_DIR="$SKILLS_ROOT/seo-elite/memory/primary"
 DB_PATH="$BASE/seo_elite_memory.db"
 DEFER_BUILD="${SEO_ELITE_DEFER_BUILD:-0}"

@@ -29,7 +29,7 @@ from phase13_promote_writer_marketing import (
 )
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_SKILLS_ROOT = HOME / ".codex" / "skills"
 DEFAULT_PHASE25 = BASE / "ingest" / "phase25" / "latest.json"

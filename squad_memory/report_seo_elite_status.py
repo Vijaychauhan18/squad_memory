@@ -15,7 +15,7 @@ from typing import Any, Dict, Iterable, List, Tuple
 from urllib.parse import urlparse
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DB_PATH = Path(os.getenv("SEO_ELITE_STATUS_DB_PATH", str(BASE / "seo_elite_memory.db")))
 SKILL_ROOT = Path(os.getenv("SEO_ELITE_SKILL_ROOT", str(HOME / ".codex" / "elite-skills" / "seo-elite")))

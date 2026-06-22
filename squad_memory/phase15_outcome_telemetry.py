@@ -10,7 +10,7 @@ from typing import Any, Dict, List
 from squad_memory import TASK_PACKS_PATH, DB_PATH, outcome_report, pack_report, train_usage_priors
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_PHASE15_DIR = BASE / "ingest" / "phase15"
 

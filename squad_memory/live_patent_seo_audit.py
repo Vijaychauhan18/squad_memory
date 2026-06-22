@@ -12,7 +12,7 @@ from urllib.parse import urldefrag, urljoin, urlparse, urlunparse
 import knowledge_ingest
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 SEO_MEMORY_ROOT = HOME / ".codex" / "skills" / "seo" / "memory"
 DEFAULT_MAX_PAGES = 7
 DEFAULT_TIMEOUT = 20

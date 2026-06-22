@@ -1,9 +1,9 @@
 #!/bin/zsh
 set -eu
 
-SOURCE_DIR="/Users/vijaychauhan/.codex/skills/seo/memory"
-TARGET_DIR="/Users/vijaychauhan/.codex/elite-skills/seo-elite/memory"
-MANIFEST="/Users/vijaychauhan/squad_memory/seo_elite_seed_manifest.txt"
+SOURCE_DIR="$HOME/.codex/skills/seo/memory"
+TARGET_DIR="$HOME/.codex/elite-skills/seo-elite/memory"
+MANIFEST="$HOME/squad_memory/seo_elite_seed_manifest.txt"
 
 mkdir -p "$TARGET_DIR"
 

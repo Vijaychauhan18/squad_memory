@@ -14,7 +14,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_CONFIG = BASE / "seo_elite_primary_sources.json"
 DEFAULT_SKILLS_ROOT = HOME / ".codex" / "elite-skills"

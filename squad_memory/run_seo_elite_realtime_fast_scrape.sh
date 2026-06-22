@@ -1,9 +1,9 @@
 #!/bin/zsh
 set -eu
 
-BASE="/Users/vijaychauhan/squad_memory"
+BASE="$HOME/squad_memory"
 LOG_DIR="$BASE/logs"
-SKILLS_ROOT="/Users/vijaychauhan/.codex/elite-skills"
+SKILLS_ROOT="$HOME/.codex/elite-skills"
 ARCHIVE_DIR="$SKILLS_ROOT/seo-elite/memory/archive"
 DB_PATH="$BASE/seo_elite_memory.db"
 DEFER_BUILD="${SEO_ELITE_DEFER_BUILD:-0}"

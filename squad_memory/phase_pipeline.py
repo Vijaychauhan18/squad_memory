@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Any, Dict, Iterator, List, Optional
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_CONFIG = BASE / "knowledge_sources.json"
 DEFAULT_OUTPUT = HOME / ".codex" / "skills" / "seo" / "memory"

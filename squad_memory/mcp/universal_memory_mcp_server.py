@@ -124,7 +124,7 @@ ROLE_DATASET_BONUSES = {
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Universal MCP server for Squad Memory OS")
-    parser.add_argument("--skills-root", default=str(Path("/Users/vijaychauhan/.codex/skills")))
+    parser.add_argument("--skills-root", default=str(Path.home() / ".codex" / "skills"))
     parser.add_argument("--task-packs", default=str(REPO_ROOT / "task_packs.json"))
     return parser.parse_args()
 

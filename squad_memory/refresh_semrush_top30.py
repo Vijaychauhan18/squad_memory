@@ -12,7 +12,7 @@ from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 import knowledge_ingest
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_CONFIG = BASE / "knowledge_sources_seo_elite_archive.json"
 DEFAULT_SKILLS_ROOT = HOME / ".codex" / "elite-skills"

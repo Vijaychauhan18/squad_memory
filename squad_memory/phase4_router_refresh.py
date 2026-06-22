@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Sequence, Tuple
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 DEFAULT_MEMORY_ROUTER = HOME / ".codex" / "skills" / "seo" / "MEMORY.md"
 DEFAULT_INDEX = HOME / ".codex" / "skills" / "seo" / "memory" / "INDEX.md"
 DEFAULT_OUTPUT = HOME / ".codex" / "skills" / "seo" / "memory"

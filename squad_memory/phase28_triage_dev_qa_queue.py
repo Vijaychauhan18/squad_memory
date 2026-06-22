@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Sequence, Tuple
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_PHASE27 = BASE / "ingest" / "phase27" / "latest.json"
 DEFAULT_PHASE28_DIR = BASE / "ingest" / "phase28"

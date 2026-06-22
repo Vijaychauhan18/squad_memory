@@ -28,7 +28,7 @@ from phase11_bootstrap_writer_marketing import (
 )
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_CONFIG = BASE / "knowledge_sources_writer_marketing.json"
 DEFAULT_SKILLS_ROOT = HOME / ".codex" / "skills"

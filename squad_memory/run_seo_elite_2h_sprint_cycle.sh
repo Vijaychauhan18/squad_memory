@@ -1,14 +1,14 @@
 #!/bin/zsh
 set -eu
 
-BASE="/Users/vijaychauhan/squad_memory"
+BASE="$HOME/squad_memory"
 LOG_DIR="$BASE/logs"
 STOP_FILE="$BASE/seo_elite_2h_sprint_stop_at.txt"
 MARKER="codex-seo-elite-2h-sprint"
 LOCK_DIR="$BASE/locks/seo_elite_2h_sprint.lock"
 LOG_FILE="$LOG_DIR/seo_elite_2h_sprint.log"
 BRIDGE_LOG="$LOG_DIR/seo_elite_to_squad.log"
-SKILLS_ROOT="/Users/vijaychauhan/.codex/elite-skills"
+SKILLS_ROOT="$HOME/.codex/elite-skills"
 DB_PATH="$BASE/seo_elite_memory.db"
 
 mkdir -p "$LOG_DIR" "$BASE/locks"

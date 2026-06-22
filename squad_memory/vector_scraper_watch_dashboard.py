@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 
-BASE = Path("/Users/vijaychauhan/squad_memory")
+BASE = Path.home() / "squad_memory"
 STATUS_JSON = BASE / "status" / "squad_memory_watch" / "latest-status.json"
 STATUS_MD = BASE / "status" / "squad_memory_watch" / "latest-status.md"
 TIMELINE = BASE / "status" / "squad_memory_watch" / "history" / "timeline.jsonl"

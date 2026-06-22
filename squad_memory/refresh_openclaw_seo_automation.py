@@ -14,7 +14,7 @@ from run_openclaw_seo_action_runner import run_openclaw_seo_action_runner
 from report_seo_elite_status import build_status_payload, render_status_markdown
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 DEFAULT_STATUS_DIR = HOME / ".codex" / "elite-skills" / "seo-elite" / "status"
 DEFAULT_STATUS_JSON = DEFAULT_STATUS_DIR / "latest-status.json"
 DEFAULT_STATUS_MD = DEFAULT_STATUS_DIR / "latest-status.md"

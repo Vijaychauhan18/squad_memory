@@ -15,7 +15,7 @@ import manual_url_ingest
 import report_seo_elite_status as status_report
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 UI_DIR = BASE / "seo_elite_dashboard_ui"
 PRIMARY_DATASET_ID = "seo_elite"

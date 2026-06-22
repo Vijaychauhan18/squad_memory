@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 DEFAULT_SKILLS_ROOT = HOME / ".codex" / "skills"
 DEFAULT_PHASE11_DIR = HOME / "squad_memory" / "ingest" / "phase11"
 DEFAULT_DB_PATH = HOME / "squad_memory" / "squad_memory.db"

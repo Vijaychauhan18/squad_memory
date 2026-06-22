@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Dict, List, Sequence, Set
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_OUTPUT = HOME / ".codex" / "skills" / "seo" / "memory"
 DEFAULT_CONFIG = BASE / "knowledge_sources.json"

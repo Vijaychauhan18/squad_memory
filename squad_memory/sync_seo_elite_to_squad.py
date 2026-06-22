@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Sequence, Set
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_SOURCE_ROOT = HOME / ".codex" / "elite-skills" / "seo-elite" / "memory"
 DEFAULT_TARGET_ROOT = HOME / ".codex" / "skills" / "seo" / "memory" / "imports" / "seo-elite"

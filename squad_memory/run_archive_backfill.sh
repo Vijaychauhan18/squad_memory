@@ -1,9 +1,9 @@
 #!/bin/zsh
 set -eu
 
-BASE="/Users/vijaychauhan/squad_memory"
+BASE="$HOME/squad_memory"
 LOG_DIR="$BASE/logs"
-ARCHIVE_DIR="/Users/vijaychauhan/.codex/skills/seo/memory/archive"
+ARCHIVE_DIR="$HOME/.codex/skills/seo/memory/archive"
 RUNS_DIR="$BASE/ingest/archive/runs"
 SNAPSHOT_DIR="$BASE/ingest/archive/raw"
 STATE_PATH="$BASE/ingest/archive/state.json"

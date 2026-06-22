@@ -19,7 +19,7 @@ from phase9_merge_summaries import (
 )
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_OUTPUT = HOME / ".codex" / "skills" / "seo" / "memory"
 DEFAULT_PHASE7_REGISTRY = BASE / "ingest" / "phase7" / "canonical_registry.json"

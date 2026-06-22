@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "squad-memory-os": {
+      "command": "python3",
+      "args": [
+        "/Users/vijaychauhan/squad_memory/mcp/universal_memory_mcp_server.py",
+        "--skills-root",
+        "/Users/vijaychauhan/.codex/skills",
+        "--task-packs",
+        "/Users/vijaychauhan/squad_memory/task_packs.json"
+      ],
+      "env": {}
+    }
+  }
+}

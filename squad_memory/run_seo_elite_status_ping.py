@@ -15,7 +15,7 @@ from refresh_openclaw_seo_automation import (
 from report_seo_elite_status import build_status_payload, send_notification, write_outputs
 
 
-BASE = Path("/Users/vijaychauhan/squad_memory")
+BASE = Path.home() / "squad_memory"
 LOG_PATH = BASE / "logs" / "seo_elite_status_ping.log"
 
 

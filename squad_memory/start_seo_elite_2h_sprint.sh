@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -eu
 
-BASE="/Users/vijaychauhan/squad_memory"
+BASE="$HOME/squad_memory"
 RUNNER="$BASE/run_seo_elite_2h_sprint_cycle.sh"
 STOP_FILE="$BASE/seo_elite_2h_sprint_stop_at.txt"
 MARKER="codex-seo-elite-2h-sprint"

@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 DEFAULT_OPENCLAW_ROOT = HOME / ".openclaw"
 DEFAULT_WORKSPACE = DEFAULT_OPENCLAW_ROOT / "workspace" / "squad" / "seo"
 DEFAULT_CRON_STORE = DEFAULT_OPENCLAW_ROOT / "cron" / "jobs.json"

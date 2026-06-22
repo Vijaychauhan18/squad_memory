@@ -1,11 +1,11 @@
 #!/bin/zsh
 set -eu
 
-BASE="/Users/vijaychauhan/squad_memory"
+BASE="$HOME/squad_memory"
 LOG_DIR="$BASE/logs"
 STOP_FILE="$BASE/seo_expert_feed_stop_at.txt"
 MARKER="codex-seo-expert-feed"
-MEMORY_DIR="/Users/vijaychauhan/.codex/skills/seo/memory"
+MEMORY_DIR="$HOME/.codex/skills/seo/memory"
 
 mkdir -p "$LOG_DIR"
 

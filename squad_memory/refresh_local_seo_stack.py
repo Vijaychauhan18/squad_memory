@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 
 
 @dataclass(frozen=True)

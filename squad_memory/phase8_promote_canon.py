@@ -12,7 +12,7 @@ from typing import Any, Dict, List, Tuple
 from phase7_merge_canon import run as run_phase7
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_OUTPUT = HOME / ".codex" / "skills" / "seo" / "memory"
 DEFAULT_PHASE6_DECISIONS = BASE / "ingest" / "phase6" / "decisions.json"

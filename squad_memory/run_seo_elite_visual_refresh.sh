@@ -1,10 +1,10 @@
 #!/bin/zsh
 set -eu
 
-BASE="/Users/vijaychauhan/squad_memory"
+BASE="$HOME/squad_memory"
 LOG_DIR="$BASE/logs"
 DB_PATH="$BASE/seo_elite_memory.db"
-STATUS_JSON="/Users/vijaychauhan/.codex/elite-skills/seo-elite/status/latest-status.json"
+STATUS_JSON="$HOME/.codex/elite-skills/seo-elite/status/latest-status.json"
 STATE_DIR="$BASE/ingest/seo_elite/visual_refresh"
 STAMP_PATH="$STATE_DIR/last_graph_stamp.txt"
 GRAPH_LOG="$LOG_DIR/seo_elite_visual_refresh.log"

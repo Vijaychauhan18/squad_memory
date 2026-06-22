@@ -23,7 +23,7 @@ except Exception:
     AsyncFetcher = None
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_LIVE_CONFIG = BASE / "knowledge_sources_seo_elite_live.json"
 DEFAULT_ARCHIVE_CONFIG = BASE / "knowledge_sources_seo_elite_archive.json"

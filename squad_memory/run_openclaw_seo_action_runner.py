@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 DEFAULT_WORKSPACE = HOME / ".openclaw" / "workspace" / "squad" / "seo"
 SUPPORTED_COMPONENTS = {"seo_elite_knowledge", "seo_memory_mcp"}
 STOPWORDS = {

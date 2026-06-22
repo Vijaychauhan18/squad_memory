@@ -17,7 +17,7 @@ from urllib.parse import urlparse
 import knowledge_ingest
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_SKILLS_ROOT = HOME / ".codex" / "skills"
 DEFAULT_DB_PATH = BASE / "squad_memory.db"

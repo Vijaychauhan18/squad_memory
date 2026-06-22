@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -eu
 
-BASE="/Users/vijaychauhan/squad_memory"
+BASE="$HOME/squad_memory"
 LOG_DIR="$BASE/logs"
 MODE="${1:-fast}"
 LOG_PATH="$LOG_DIR/codex_local_seo_ops.log"

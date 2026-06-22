@@ -13,7 +13,7 @@ from typing import Any, Dict, List
 from phase11_bootstrap_writer_marketing import build_frontmatter, write_note, write_note_body
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_SKILLS_ROOT = HOME / ".codex" / "skills"
 DEFAULT_PHASE22_DIR = BASE / "ingest" / "phase22"

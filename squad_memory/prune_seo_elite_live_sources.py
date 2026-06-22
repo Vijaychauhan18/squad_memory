@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Set
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 BASE = HOME / "squad_memory"
 DEFAULT_SKILLS_ROOT = HOME / ".codex" / "elite-skills"
 DEFAULT_SKILL_ROOT = DEFAULT_SKILLS_ROOT / "seo-elite"

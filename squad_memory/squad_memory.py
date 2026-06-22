@@ -27,7 +27,7 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 SKILLS_ROOT = HOME / ".codex" / "skills"
 DB_PATH = HOME / "squad_memory" / "squad_memory.db"
 TASK_PACKS_PATH = HOME / "squad_memory" / "task_packs.json"

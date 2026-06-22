@@ -11,7 +11,7 @@ from openclaw_hq_context import build_graph_hq_context
 from refresh_openclaw_seo_missions import refresh_openclaw_seo_missions
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 DEFAULT_WORKSPACE = HOME / ".openclaw" / "workspace" / "squad" / "seo"
 
 ROLE_LIBRARY: Dict[str, Dict[str, str]] = {

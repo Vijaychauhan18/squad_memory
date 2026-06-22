@@ -12,7 +12,7 @@ from typing import Any, Dict, List
 from openclaw_fts_backfill import ensure_schema, hash_text
 
 
-HOME = Path("/Users/vijaychauhan")
+HOME = Path.home()
 DEFAULT_SOURCE_DB = HOME / "squad_memory" / "seo_elite_memory.db"
 DEFAULT_OPENCLAW_ROOT = HOME / ".openclaw"
 DEFAULT_WORKSPACE = DEFAULT_OPENCLAW_ROOT / "workspace" / "squad" / "seo"
